@@ -37,6 +37,15 @@ const appConfig: any = {
     instagram: "",
     youtube: "",
   },
+  home: {
+    title: "Welcome to NBK Chord",
+    description:
+      "Apliaksi chord untuk Nyanyian Bala Keselamatan dipersembahkan untuk kemuliaan Tuhan Yesus Kristus",
+    hero: {
+      image: "/assets/marketing1.svg",
+      imageAlt: "/assets/white-wave.svg",
+    },
+  },
 };
 
 export default appConfig;
