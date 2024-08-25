@@ -1,6 +1,11 @@
 import appConfig from "@/app.config";
+import { Metadata } from "next";
 import Image from "next/image";
 
+export const metadata: Metadata = {
+  title: appConfig.home.title,
+  description: appConfig.home.description,
+};
 export default function Home() {
   const { home } = appConfig;
   return (

@@ -38,13 +38,28 @@ const appConfig: any = {
     youtube: "",
   },
   home: {
-    title: "Welcome to NBK Chord",
+    title: "Selamat Datang di NBK Chord",
     description:
       "Apliaksi chord untuk Nyanyian Bala Keselamatan dipersembahkan untuk kemuliaan Tuhan Yesus Kristus",
     hero: {
       image: "/assets/marketing1.svg",
       imageAlt: "/assets/white-wave.svg",
     },
+  },
+  song_list: {
+    title: "Daftar Lagu",
+    description:
+      "Daftar lagu lagu dari buku lagu Bala Keselamatan dengan mudah, dan nikmati fitur transpose akor untuk memainkan lagu sesuai dengan nada favorit Anda.",
+  },
+  privacy_policy: {
+    title: "Kebijakan Privasi",
+    description:
+      "Kebijakan privasi ini menjami untuk mengumpulkan, menyimpan, dan memproses data pengguna dalam bentuk apapun. Aplikasi ini sepenuhnya berbasis klien, sehingga data Anda tetap aman dan privat.",
+  },
+  terms_and_conditions: {
+    title: "Syarat dan Ketentuan",
+    description:
+      "Selamat datang di NBK Chord! Dengan menggunakan aplikasi ini, Anda setuju dengan syarat dan ketentuan berikut:",
   },
 };
 

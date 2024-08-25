@@ -38,9 +38,13 @@ const SocialList = ({ isFooter }: any) => {
           return (
             <div className={"hover:scale-110 duration-200"} key={item}>
               {item == "email" ? (
-                <Link href={`mailto:${socials[item]}`}>{icons[item]}</Link>
+                <Link href={`mailto:${socials[item]}`} target="_blank">
+                  {icons[item]}
+                </Link>
               ) : (
-                <Link href={socials[item]}>{icons[item]}</Link>
+                <Link href={socials[item]} target="_blank">
+                  {icons[item]}
+                </Link>
               )}
             </div>
           );

@@ -91,7 +91,7 @@ const Header = () => {
             </Sheet>
           </div>
 
-          <Link href={githubRepo}>
+          <Link href={githubRepo} target="_blank">
             <Button size={"icon"} variant={"ghost"}>
               <Github size={20} />
             </Button>
