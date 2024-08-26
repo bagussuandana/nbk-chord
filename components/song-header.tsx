@@ -1,5 +1,14 @@
 import appConfig from "@/app.config";
+import Link from "next/link";
 import React from "react";
+import { Button } from "./ui/button";
+import {
+    ArrowLeft,
+    List,
+    ListMusic,
+    ListMusicIcon,
+    ListStartIcon,
+} from "lucide-react";
 
 type Props = {
     song: {
@@ -28,7 +37,14 @@ const SongHeader = ({ song }: Props) => {
             <h1 className="sr-only">
                 {song.title} {song?.description} {song.title.replace(/-/g, " ")}
             </h1>
-            <h3>{song.title}</h3>
+            <div className="flex w-full justify-between items-center">
+                <div className="text-lg font-normal">{song.title}</div>
+                <Link href={"/song-list"}>
+                    <Button size={"icon"}>
+                        <ListMusicIcon />
+                    </Button>
+                </Link>
+            </div>
             <h2>{song?.description}</h2>
             <p className="capitalize">
                 Chord : {song?.chord} | {song?.rhythm} | {song?.tempo} |{" "}
