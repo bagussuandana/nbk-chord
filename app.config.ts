@@ -134,7 +134,7 @@ const appConfig: any = {
             id: "larghissimo",
             name: "larghissimo",
             description: "sangat lambat, lebih lambat dari largo",
-            bpm_range: "25 ke bawah",
+            bpm_range: "0-25",
         },
         {
             id: "largo",
@@ -158,7 +158,7 @@ const appConfig: any = {
             id: "prestissimo",
             name: "prestissimo",
             description: "sangat cepat, lebih cepat dari presto",
-            bpm_range: "200 ke atas",
+            bpm_range: "200-999",
         },
         {
             id: "presto",
