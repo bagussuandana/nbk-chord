@@ -5,48 +5,33 @@ import TransposerWrapper from "@/components/transposer-wrapper";
 import Transposer from "@/lib/transposer";
 import { Metadata } from "next";
 
-const songID = "1";
+const songID = "2";
 export const metadata: Metadata = {
     title: appConfig.songs.find((s: any) => s.id === songID).title,
     description: appConfig.songs.find((s: any) => s.id === songID).description,
 };
-export default function NBK1() {
+export default function NBK2() {
     const { songs } = appConfig;
     const song = songs.find((s: any) => s.id === songID);
     const songText = `
-    G               C        
-1. Banyaklah yang 'ku
-          Bm     Em
-tak dapat mengerti,
-Am      D            G D
-semua bagaikan misteri;
-    G      C
-Tapi karunia Allah yang
-Bm      Em
-'ku t'rima
-Am      A                   D
-sungguh mengherankan dan mulia.
+1. Besar setia-Mu, Allah Bapaku, besar dan
+berlimpah kepadaku, tiada kurang dan tidak
+berubah, sempurna dan tetap selamanya.
 
-Koor :
-C             D            G
-Lebih tinggi dari angkasa raya,
-C             Am A          D
-lebih luas dan tak ada batasnya,
-G           C
-Itu kasih Allah yang
-Bm       Em   
-mengampuni
-Am      D       G
-orang berdosa ini.
+Koor:
+Besar setia-Mu, besar setia-Mu, tiap
+pagi nampak rahmat baru; Kau t'lah sediakan
+s'gala yang kuperlu, besar setia-Mu kepadaku
 
-2. Bila 'ku datang membawa dosaku serta
-s'gala persoalanku,
-Tentu Tuhan akan menerimanya, kasih
-Allah luar biasa!
+2. Seg'nap makhluk serta bintang dan bulan,
+seg'nap alam yang diciptakan-Nya, turut
+menyaksikan dan bergembira, Kasih setia-Mu
+yang mulia
 
-3. Pengertian yang sangat
-mengherankan, tidak dapat aku pikirkan,
-Yesus, dalam kasih, datang
+3. Pengampunan dosa, damai abadi,
+penghiburan, k'hadiran-Mu memb'ri kekuatan
+dan pengharapan bagiku, bersama jutaan
+yang menanti-Mu
 `;
     return (
         <SongWrapper>
