@@ -67,3 +67,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+.key-selector {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
