@@ -5,7 +5,9 @@ type Props = {};
 const SongWrapper = ({ children }: PropsWithChildren) => {
     return (
         <div className="container">
-            <section className="prose dark:prose-invert">{children}</section>
+            <section className="prose dark:prose-invert max-w-full">
+                {children}
+            </section>
         </div>
     );
 };
