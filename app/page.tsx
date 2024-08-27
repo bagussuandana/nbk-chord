@@ -1,5 +1,4 @@
 import appConfig from "@/app.config";
-import MusicYoga from "@/components/svg/music-yoga";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -20,7 +19,12 @@ export default function Home() {
                                 data-aos="fade-right"
                             >
                                 <div className="relative 2xl:-ml-64 lg:-ml-28 2xl:min-w-[130%] lg:w-[113%] w-full">
-                                    <MusicYoga />
+                                    <Image
+                                        width={2000}
+                                        height={1125}
+                                        src={home.hero.image}
+                                        alt="hero"
+                                    />
                                 </div>
                             </div>
                             <div className="lg:col-span-3" data-aos="fade-left">
