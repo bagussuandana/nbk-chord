@@ -7,13 +7,13 @@ import { Metadata } from "next";
 
 const songID = "1";
 export const metadata: Metadata = {
-    title: appConfig.songs.find((s: any) => s.id === songID).title,
-    description: appConfig.songs.find((s: any) => s.id === songID).description,
+  title: appConfig.songs.find((s: any) => s.id === songID).title,
+  description: appConfig.songs.find((s: any) => s.id === songID).description,
 };
 export default function NBK1() {
-    const { songs } = appConfig;
-    const song = songs.find((s: any) => s.id === songID);
-    const songText = `
+  const { songs } = appConfig;
+  const song = songs.find((s: any) => s.id === songID);
+  const songText = `
     G               C        
 1. Banyaklah yang 'ku
           Bm     Em
@@ -48,15 +48,12 @@ Allah luar biasa!
 mengherankan, tidak dapat aku pikirkan,
 Yesus, dalam kasih, datang
 `;
-    return (
-        <SongWrapper>
-            <SongHeader song={song} />
-            <TransposerWrapper>
-                <Transposer
-                    initialKey={song.chord as string}
-                    songText={songText}
-                />
-            </TransposerWrapper>
-        </SongWrapper>
-    );
+  return (
+    <SongWrapper>
+      <SongHeader song={song} />
+      <TransposerWrapper>
+        <Transposer initialKey={song.chord as string} songText={songText} />
+      </TransposerWrapper>
+    </SongWrapper>
+  );
 }

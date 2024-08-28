@@ -13,7 +13,7 @@ export default function SongList() {
   return (
     <>
       <div className="container mx-auto p-4">
-        <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-4">
+        <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 gap-4">
           {songs.map(
             (song: {
               id: string;
