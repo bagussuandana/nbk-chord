@@ -91,7 +91,7 @@ const song_1_50: any = [
     id: "12",
     title: "NBK-12",
     description: "pujilah bersama-sama",
-    chord: "D",
+    chord: "E",
     rhythm: "4/4",
     tempo: "108",
   },
