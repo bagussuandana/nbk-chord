@@ -1,6 +1,7 @@
 import keywords from "./app-config/keywords";
 import song_1_50 from "./songs/song-1-50";
 import song_100_150 from "./songs/song-100-150";
+import song_250_300 from "./songs/song-250-300";
 import song_300_350 from "./songs/song-300-350";
 import song_50_100 from "./songs/song-50-100";
 
@@ -187,7 +188,13 @@ const appConfig: any = {
     },
   ],
 
-  songs: [...song_1_50, ...song_50_100, ...song_100_150, ...song_300_350],
+  songs: [
+    ...song_1_50,
+    ...song_50_100,
+    ...song_100_150,
+    ...song_250_300,
+    ...song_300_350,
+  ],
 };
 
 export default appConfig;
