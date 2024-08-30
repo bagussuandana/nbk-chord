@@ -14,6 +14,18 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: appConfig.title,
     description: appConfig.description,
+    keywords: appConfig.keywords,
+    openGraph: {
+        title: appConfig.title,
+        description: appConfig.description,
+        url: appConfig.url,
+        siteName: appConfig.title,
+        images: [
+            {
+                url: "https://nbk-chord.vercel.app/nbk-chord-og-image-1.png",
+            },
+        ],
+    },
 };
 
 export default function RootLayout({
