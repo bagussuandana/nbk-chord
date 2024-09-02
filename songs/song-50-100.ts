@@ -1,4 +1,6 @@
-const song_50_100: any = [
+import { Song } from "@/types/song";
+
+const song_50_100: Song[] = [
     {
         id: "51",
         title: "NBK-51",

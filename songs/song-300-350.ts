@@ -1,12 +1,14 @@
-const song_300_350: any = [
-  {
-    id: "321",
-    title: "NBK-321",
-    description: "kesuka'an dalam bala",
-    chord: "D",
-    rhythm: "4/4",
-    tempo: "116",
-  },
+import { Song } from "@/types/song";
+
+const song_300_350: Song[] = [
+    {
+        id: "300",
+        title: "NBK-300",
+        description: "untuk berperang",
+        chord: "C",
+        rhythm: "4/4",
+        tempo: "96",
+    },
 ];
 
 export default song_300_350;
