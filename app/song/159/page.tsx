@@ -5,45 +5,46 @@ import TransposerWrapper from "@/components/transposer-wrapper";
 import Transposer from "@/lib/transposer";
 import { Metadata } from "next";
 
-const songID = "62";
+const songID = "159";
 export const metadata: Metadata = {
   title: appConfig.songs.find((s: any) => s.id === songID).title,
   description: appConfig.songs.find((s: any) => s.id === songID).description,
 };
-export default function NBK62() {
+export default function NBK159() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
-    A	C#m	D A
-1. Apakah 'kau ada tempat
-Bm E	A
-bagi Juru Selamat,
-    A	C#m	D A
-yang ketuk dan minta masuk?
-Bm E	A
-Buka s'karang hatimu!.
+ G G Bm Em 
+1.	O, betapa ajaib p'rubahan hatiku,
+ C C G D
+sejak akut'rima Yesus;
+G G Bm Em
+Ku bersukacita kar'na hidup baru,
+A A7 D
+sejak aku t'rima Yesus.
 
+D G G G Dm C C G D 
+G Bm Dm E A D G
 Koor :
-E E7	A A7
-Buka bagi Raja mulia ,
-D	B	E
-s'karang pintu hatimu,
-A D A
-agar Ia dapat masuk,
-Bm E A
-sedang Ia menunggu.
+Sejak aku t'rima Yesus,
+sejak aku t'rima Yesus;
+Sukacita di hatiku berlimpahlah,
+sejak aku t'rima Yesus!
 
-2. Tempat bagi kesenangan dapat banyak
-perhatian, tapi tidak bagi Tuhan yang rela
-disalibkan.
+2.	Aku tinggalkan jalan dunia yang fana,
+sejak aku t'rima Yesus;
+Serta rantai dosa telah putus s'mua,
+sejak aku t'rima Yesus.
 
-3. Apakah'kau ada waktu? Tuhan tunggu
-dengan kasih; S'karang harus t'rima Dia,
-seb'lum kasip waktunya.
+3.	Pengharapanku s'karang di dalam Tuhan,
+sejak aku t'rima Yesus;
+Ta'da awan yang g'lap yang dapat takutkan,
+sejak aku trima Yesus.
 
-4. Tempat, waktu b'rikan Tuhan,
-janganlah sampai terlambat; Kelak tak
-ada jemputan bagi yang cari s'lamat.
+4.	O, betapa senang, berjumpa di surga,
+kar'na aku t'rima Yesus;
+Aku b'rani maju dengan sukacita,
+kar'na aku t'rima Yesus.
 `;
   return (
     <SongWrapper>

@@ -5,45 +5,43 @@ import TransposerWrapper from "@/components/transposer-wrapper";
 import Transposer from "@/lib/transposer";
 import { Metadata } from "next";
 
-const songID = "62";
+const songID = "309";
 export const metadata: Metadata = {
   title: appConfig.songs.find((s: any) => s.id === songID).title,
   description: appConfig.songs.find((s: any) => s.id === songID).description,
 };
-export default function NBK62() {
+export default function NBK309() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
-    A	C#m	D A
-1. Apakah 'kau ada tempat
-Bm E	A
-bagi Juru Selamat,
-    A	C#m	D A
-yang ketuk dan minta masuk?
-Bm E	A
-Buka s'karang hatimu!.
+  D F#m Bm F#m Em A D A
+1.	Meski jalan hidupmu terasa amat b'rat,
+D F#m Bm F#m Em E7 A
+sandarlah pada Tuhan, Yesus ada dekat;
+Em A D Bm Em A D Bm
+Bila hari berkabut dan malam pun gelap,
+G F#m E E E7 A A7 
+"O, janganlah 'kau takut," perjanjian-Nya tetap!
 
 Koor :
-E E7	A A7
-Buka bagi Raja mulia ,
-D	B	E
-s'karang pintu hatimu,
-A D A
-agar Ia dapat masuk,
-Bm E A
-sedang Ia menunggu.
+D F#m Bm A
+Betapa indah mulia
+Em A D A
+kesetiaan Allah;
+D F#m G
+Kita tetap milik-Nya
+Em A D
+untuk s'lama-lamanya
 
-2. Tempat bagi kesenangan dapat banyak
-perhatian, tapi tidak bagi Tuhan yang rela
-disalibkan.
+2.	Carilah kuasa Tuhan yang tetap setia,
+Ia b'ri kemenangan dengan kuasa-Nya;
+Walau jalanmu sukar, ikutlah jejak-Nya,
+kar'na Ia mengantar, peganglah tangan-Nya.
 
-3. Apakah'kau ada waktu? Tuhan tunggu
-dengan kasih; S'karang harus t'rima Dia,
-seb'lum kasip waktunya.
-
-4. Tempat, waktu b'rikan Tuhan,
-janganlah sampai terlambat; Kelak tak
-ada jemputan bagi yang cari s'lamat.
+3.	Carilah perlindungan kepada Allahmu,
+yang pada waktu susah mengatur hidupmu;
+Ia pun dengan kasih dalam suka-duka
+menarik engkau lebih dekat kepada-Nya.
 `;
   return (
     <SongWrapper>
