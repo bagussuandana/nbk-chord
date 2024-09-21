@@ -92,8 +92,8 @@ const song_50_100: Song[] = [
   {
     id: "62",
     title: "NBK-62",
-    description: "apa kau ada tempat",
-    chord: "A",
+    description: "buka bagi raja mulia",
+    chord: "G",
     rhythm: "4/4",
     tempo: "84",
   },

@@ -14,23 +14,23 @@ export default function NBK309() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
-  D F#m Bm F#m Em A D A
+        C    Em   Am  Em   Dm  G      C  G
 1.	Meski jalan hidupmu terasa amat b'rat,
-D F#m Bm F#m Em E7 A
+    C     Em   Am  Em   Dm  D7      G  
 sandarlah pada Tuhan, Yesus ada dekat;
-Em A D Bm Em A D Bm
+  Dm   G    C   Am     Dm     G   C   Am
 Bila hari berkabut dan malam pun gelap,
-G F#m E E E7 A A7 
+    F       Em        D         D7           G
 "O, janganlah 'kau takut," perjanjian-Nya tetap!
 
 Koor :
-D F#m Bm A
+ C      Em      Am  G
 Betapa indah mulia
-Em A D A
+ Dm    G      C  G
 kesetiaan Allah;
-D F#m G
+ C      Em      Am  G
 Kita tetap milik-Nya
-Em A D
+ Dm     G      C 
 untuk s'lama-lamanya
 
 2.	Carilah kuasa Tuhan yang tetap setia,

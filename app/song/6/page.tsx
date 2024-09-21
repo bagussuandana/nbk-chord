@@ -14,23 +14,23 @@ export default function NBK6() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
-                G	    Bm	    C	
+              G	    Bm	          C	
 1.	Kalau 'ku lihat karya tangan Tuhan,
-              G	    D	    G	    D
+            G	      D	             G  D
 s'kalian alam yang 'Kau t'lah jadikan; 
-                G   	Bm	    C	
+           G   	Bm	        C	
 Tiap makhluk dalam kejadian mulia,
-        G	    D	    G	    D
+               G      D       G  D
 yang 'Kau pimpin dengan kecintaan.
 
 Koor :
-      G	     C	   G    Em	
+       G	  C	         G  Em	
 Maka jiwaku sorak, berseru:
-    Am      D	    G	    D
+       Am  D	     G  D
 Betapa mulia Allah Hu!
-        G	    C	 Bm 	Em
+        G	   C	     Bm  Em
 Maka jiwaku sorak, berseru:
-    Am      D	    G	    
+       Am     D	    G	    
 Betapa mulia Allah Hu!
 
 2.	Kalau kubaca di dalam sabda-Nya,

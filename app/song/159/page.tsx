@@ -14,21 +14,23 @@ export default function NBK159() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
- G G Bm Em 
+         E    G#m        C#m      G#m
 1.	O, betapa ajaib p'rubahan hatiku,
- C C G D
+   A                E  B
 sejak akut'rima Yesus;
-G G Bm Em
+        E    G#m      C#m      G#m
 Ku bersukacita kar'na hidup baru,
-A A7 D
+   F#      F#7        B
 sejak aku t'rima Yesus.
 
-D G G G Dm C C G D 
-G Bm Dm E A D G
 Koor :
+B   E                 E7
 Sejak aku t'rima Yesus,
-sejak aku t'rima Yesus;
+A         A7          E
+sejak aku t'rima Yesus,
+     E       G#m    C#m      E7
 Sukacita di hatiku berlimpahlah,
+A     E    B     E
 sejak aku t'rima Yesus!
 
 2.	Aku tinggalkan jalan dunia yang fana,

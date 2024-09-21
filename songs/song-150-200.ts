@@ -13,7 +13,7 @@ const song_150_200: Song[] = [
     id: "159",
     title: "NBK-159",
     description: "o,betapa ajaib",
-    chord: "G",
+    chord: "E",
     rhythm: "4/4",
     tempo: "104",
   },

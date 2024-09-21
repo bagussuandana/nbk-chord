@@ -14,23 +14,23 @@ export default function NBK62() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
-    A	C#m	D A
+    G	  Bm	   C     G
 1. Apakah 'kau ada tempat
-Bm E	A
+ Am   D	        G  D
 bagi Juru Selamat,
-    A	C#m	D A
+    G	  Bm	    C    G
 yang ketuk dan minta masuk?
-Bm E	A
+  Am   D	         G
 Buka s'karang hatimu!.
 
 Koor :
-E E7	A A7
+ D   D7	       G    G7
 Buka bagi Raja mulia ,
-D	B	E
+  C	      A	        D D7
 s'karang pintu hatimu,
-A D A
+ G    C       Bm   Em
 agar Ia dapat masuk,
-Bm E A
+  Am    D         G
 sedang Ia menunggu.
 
 2. Tempat bagi kesenangan dapat banyak

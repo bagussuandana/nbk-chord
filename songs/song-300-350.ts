@@ -13,7 +13,7 @@ const song_300_350: Song[] = [
     id: "309",
     title: "NBK-309",
     description: "meski jalan hidupku",
-    chord: "D",
+    chord: "C",
     rhythm: "4/4",
     tempo: "104",
   },
