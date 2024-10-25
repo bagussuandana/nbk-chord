@@ -1,6 +1,6 @@
 import { Song } from "@/types/song";
 
-const song_300_350: Song[] = [
+const song_301_350: Song[] = [
   {
     id: "300",
     title: "NBK-300",
@@ -27,4 +27,4 @@ const song_300_350: Song[] = [
   },
 ];
 
-export default song_300_350;
+export default song_301_350;
