@@ -17,6 +17,14 @@ const song_300_350: Song[] = [
     rhythm: "4/4",
     tempo: "104",
   },
+  {
+    id: "346",
+    title: "NBK-346",
+    description: "tuhanlah batu karangku",
+    chord: "F",
+    rhythm: "4/4",
+    tempo: "120",
+  },
 ];
 
 export default song_300_350;
