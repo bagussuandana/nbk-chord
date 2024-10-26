@@ -1,14 +1,14 @@
 import { Song } from "@/types/song";
 
 const song_201_250: Song[] = [
-  {
-    id: "180",
-    title: "NBK-180",
-    description: "akan ada hujan berkat",
-    chord: "G",
-    rhythm: "6/8",
-    tempo: "132",
-  },
+    {
+        id: "201",
+        title: "NBK-201",
+        description: "maukah kau tahu pada siapa",
+        chord: "C",
+        rhythm: "4/4",
+        tempo: "120",
+    },
 ];
 
 export default song_201_250;
