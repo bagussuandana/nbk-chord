@@ -14,12 +14,15 @@ export default function NBK267() {
     const { songs } = appConfig;
     const song = songs.find((s: any) => s.id === songID);
     const songText = `
-D      A     D
+D            A        D
 Tuhan Yesus, Engkau saja
-D  G  A  D
+D             G     A 
 kekuatan dan hidupku,
-
+D     F#m        Bm    F#m
 ceraikanlah 'ku dari dunia
+Bm        E      A
+agar jadi hambaMu.
+D     G     A     D
 agar jadi hambaMu.
 
 
