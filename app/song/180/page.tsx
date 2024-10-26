@@ -7,18 +7,18 @@ import { Metadata } from "next";
 
 const songID = "180";
 export const metadata: Metadata = {
-  title: appConfig.songs.find((s: any) => s.id === songID).title,
-  description: appConfig.songs.find((s: any) => s.id === songID).description,
+    title: appConfig.songs.find((s: any) => s.id === songID).title,
+    description: appConfig.songs.find((s: any) => s.id === songID).description,
 };
 export default function NBK180() {
-  const { songs } = appConfig;
-  const song = songs.find((s: any) => s.id === songID);
-  const songText = `
+    const { songs } = appConfig;
+    const song = songs.find((s: any) => s.id === songID);
+    const songText = `
 G        D             G
 1.Akan ada hujan berkat,
-D      D7        G
+D      D7        G Bm
 itulah janji Allah!
-C           Bm    Em  
+C           G    Em  
 Saat penuh kesegaran,
  Am       A        D
 yang datang dari surga.
@@ -26,7 +26,7 @@ yang datang dari surga.
 Koor : 
 G      D        G                      
 K'limpahan berkat,
-Em         Am     D
+G        A        D
 itu yang kami minta,
 G         C      Bm   Em
 rintik jatuh berkeliling,
@@ -49,12 +49,15 @@ Kini umat-Mu bertobat,
 kini kami berserah!
 
 `;
-  return (
-    <SongWrapper>
-      <SongHeader song={song} />
-      <TransposerWrapper>
-        <Transposer initialKey={song.chord as string} songText={songText} />
-      </TransposerWrapper>
-    </SongWrapper>
-  );
+    return (
+        <SongWrapper>
+            <SongHeader song={song} />
+            <TransposerWrapper>
+                <Transposer
+                    initialKey={song.chord as string}
+                    songText={songText}
+                />
+            </TransposerWrapper>
+        </SongWrapper>
+    );
 }

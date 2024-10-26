@@ -7,22 +7,30 @@ import { Metadata } from "next";
 
 const songID = "346";
 export const metadata: Metadata = {
-  title: appConfig.songs.find((s: any) => s.id === songID).title,
-  description: appConfig.songs.find((s: any) => s.id === songID).description,
+    title: appConfig.songs.find((s: any) => s.id === songID).title,
+    description: appConfig.songs.find((s: any) => s.id === songID).description,
 };
 export default function NBK346() {
-  const { songs } = appConfig;
-  const song = songs.find((s: any) => s.id === songID);
-  const songText = `
+    const { songs } = appConfig;
+    const song = songs.find((s: any) => s.id === songID);
+    const songText = `
+D
 Tuhanlah batu karangku,
+D                     A
 naungan yang tetap teguh;
+D
 Ku s'lamat dari tiap set'ru,
+D            A      D   D7
 naungan yang tetap teguh.
 
 Koor:
+G                    F#m        Bm
 Ya, Yesus Batu Karang perlindungan,
+    Em      A      D      D7
 perlindungan, perlindungan;
+G                    F#m        Bm
 Ya, Yesus Batu Karang perlindungan,
+    Em      A          D    
 naungan yang tetap teguh.
 
 Selalu Kau di sisiku,
@@ -40,12 +48,15 @@ naungan yang tetap teguh;
 Penolongku selamanya,
 naungan yang tetap teguh.
 `;
-  return (
-    <SongWrapper>
-      <SongHeader song={song} />
-      <TransposerWrapper>
-        <Transposer initialKey={song.chord as string} songText={songText} />
-      </TransposerWrapper>
-    </SongWrapper>
-  );
+    return (
+        <SongWrapper>
+            <SongHeader song={song} />
+            <TransposerWrapper>
+                <Transposer
+                    initialKey={song.chord as string}
+                    songText={songText}
+                />
+            </TransposerWrapper>
+        </SongWrapper>
+    );
 }

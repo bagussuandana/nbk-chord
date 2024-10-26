@@ -7,22 +7,30 @@ import { Metadata } from "next";
 
 const songID = "267";
 export const metadata: Metadata = {
-  title: appConfig.songs.find((s: any) => s.id === songID).title,
-  description: appConfig.songs.find((s: any) => s.id === songID).description,
+    title: appConfig.songs.find((s: any) => s.id === songID).title,
+    description: appConfig.songs.find((s: any) => s.id === songID).description,
 };
 export default function NBK267() {
-  const { songs } = appConfig;
-  const song = songs.find((s: any) => s.id === songID);
-  const songText = `
+    const { songs } = appConfig;
+    const song = songs.find((s: any) => s.id === songID);
+    const songText = `
+D      A     D
 Tuhan Yesus, Engkau saja
+D  G  A  D
 kekuatan dan hidupku,
-ceraikanlah 'ku dari dunia agar jadi hambaMu.
-Ceraikanlah 'ku dari dunia agar jadi hambaMu.
+
+ceraikanlah 'ku dari dunia
+agar jadi hambaMu.
+
 
 Koor :
+D
 Yesus, 'Kau Hidup dan Kuatku,
+A
 Yesus, 'Kau Hidup dan Kuatku,
+D                         G  D
 Yesus, 'Kau Hidup dan Kuatku,
+G             A       D
 dengan Tuhan 'ku menang.
 
 Penuhkan hatiku, Tuhan,
@@ -43,12 +51,15 @@ Hendak menjadi Tuhan punya,
 t'rima persemb'han ini,
 t'rima persemb'han ini.
 `;
-  return (
-    <SongWrapper>
-      <SongHeader song={song} />
-      <TransposerWrapper>
-        <Transposer initialKey={song.chord as string} songText={songText} />
-      </TransposerWrapper>
-    </SongWrapper>
-  );
+    return (
+        <SongWrapper>
+            <SongHeader song={song} />
+            <TransposerWrapper>
+                <Transposer
+                    initialKey={song.chord as string}
+                    songText={songText}
+                />
+            </TransposerWrapper>
+        </SongWrapper>
+    );
 }
