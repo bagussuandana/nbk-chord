@@ -14,15 +14,23 @@ export default function NBK331() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
+  G       Bm            Em     G
 Berpegang pada perjanjian Rajaku,
+C                      G       D
 'ku bersorak dan memuji nama-Nya,
+G       Bm            Em     Bm
 memuliakan Allah itu maksudku,
+Am          D               G
 berpegang pada perjanjian-Nya.
 
 Koor :
+G  G7    Am 
 Ku berpegang,
+D                         Am   D
 berpegang pada perjanjian Tuhan Allah;
+G   G7  C   Cm
 Ku berpegang,
+G             D              G
 'ku berpegang pada perjanjian-Nya.
 
 Perjanjian-Nya tinggal tetap teguh,

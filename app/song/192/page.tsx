@@ -14,15 +14,23 @@ export default function NBK192() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
+  G        D             Em
 Sudah 'ku dengar suara-Mu, Tuhan,
+      C          G   D
 menyatakan cinta-Mu;
+G        D             Em
 Dengan percaya, s'karang 'ku ingin
+C      D       G     D
 lebih dekat pada-Mu.
 
 Koor :
+G     G7     C               G
 Lebih dekat, dekat dekat Tuhanku,
+  C        Am      D
 yang mati di Golgota;
+G     G7     C               Cm
 Lebih dekat, dekat, dekat salib-Mu,
+G        D      G
 itu yang aku minta.
 
 B'rikanlah kuasa dan anugerah

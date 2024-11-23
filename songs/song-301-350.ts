@@ -21,7 +21,7 @@ const song_301_350: Song[] = [
     id: '331',
     title: 'NBK-331',
     description: 'berpegang pada perjanjian',
-    chord: 'C',
+    chord: 'G',
     rhythm: '4/4',
     tempo: '96',
   },

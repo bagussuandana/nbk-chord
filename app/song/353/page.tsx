@@ -14,15 +14,23 @@ export default function NBK353() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
+ G      Bm         Em     G7
 Bala Kes'lamatan tetap maju,
+C       A      D D7
 mengiringi Yesus,
+G      Bm         C     
 kibarkan bendera bergerak maju,
+G     D      G
 kalahkanlah musuh!
 
 Koor :
+G  Em      Am
 Maju tetap maju!
+D       G
 kabarkan Injil- Nya,
+G  Bm      C           Cm
 kabarkanlah Injil dengan s'tia
+G      D      G
 ke seluruh dunia!
 
 Kepada nusa dan bangsa kita,

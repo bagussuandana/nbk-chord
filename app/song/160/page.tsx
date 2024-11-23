@@ -14,15 +14,23 @@ export default function NBK160() {
   const { songs } = appConfig;
   const song = songs.find((s: any) => s.id === songID);
   const songText = `
+D    G            G  
 O, s'lamat yang luas!
+   C        D     G
 O, laut kasih Allah,
+  D        Em   C     G     D     G
 kelimpahan rahmat datang dari surga ;
-
+G      D    B7
 Dunia sekalian
+Em     C       G       D
 t'lah ditebus oleh-Nya,
+G
 Membanjiri semua,
+G
 membanjiri semua,
+G    D    Em   C      
 membanjiri semua,
+G     D     G
 meliputi saya.
 
 Banyak dosa saya,

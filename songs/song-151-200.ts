@@ -21,7 +21,7 @@ const song_151_200: Song[] = [
     id: '160',
     title: 'NBK-160',
     description: 'o, slamat yang luas',
-    chord: 'D',
+    chord: 'G',
     rhythm: '4/4',
     tempo: '96',
   },
