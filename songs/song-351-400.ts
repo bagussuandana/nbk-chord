@@ -2,12 +2,20 @@ import { Song } from '@/types/song';
 
 const song_351_400: Song[] = [
   {
-    id: '321',
-    title: 'NBK-321',
-    description: "kesuka'an dalam bala",
+    id: '331',
+    title: 'NBK-331',
+    description: 'berpegang pada perjanjian',
+    chord: 'G',
+    rhythm: '4/4',
+    tempo: '96',
+  },
+  {
+    id: '346',
+    title: 'NBK-346',
+    description: 'tuhanlah batu karangku',
     chord: 'D',
     rhythm: '4/4',
-    tempo: '116',
+    tempo: '120',
   },
   {
     id: '353',

@@ -18,20 +18,12 @@ const song_301_350: Song[] = [
     tempo: '104',
   },
   {
-    id: '331',
-    title: 'NBK-331',
-    description: 'berpegang pada perjanjian',
-    chord: 'G',
-    rhythm: '4/4',
-    tempo: '96',
-  },
-  {
-    id: '346',
-    title: 'NBK-346',
-    description: 'tuhanlah batu karangku',
+    id: '321',
+    title: 'NBK-321',
+    description: "kesuka'an dalam bala",
     chord: 'D',
     rhythm: '4/4',
-    tempo: '120',
+    tempo: '116',
   },
 ];
 
