@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
 import { ChevronLeft, ChevronRight, ListMusicIcon } from "lucide-react";
+import clsx from "clsx";
 
 type Props = {
     song: {
@@ -14,9 +15,10 @@ type Props = {
         rhythm: string;
         tempo: string;
     };
+    isWorship?: boolean;
 };
 
-const SongHeader = ({ song }: Props) => {
+const SongHeader = ({ song, isWorship = false }: Props) => {
     const { tempos } = appConfig;
     const getTempoName = (bpm: number): string | null => {
         for (const tempo of tempos) {
@@ -45,14 +47,27 @@ const SongHeader = ({ song }: Props) => {
                 {song.title} {song?.description} {song.title.replace(/-/g, " ")}
             </h1>
             <div className="flex w-full justify-between items-center">
-                <h1 className="uppercase font-bold">{song.title}</h1>
+                <h1
+                    className={clsx(
+                        isWorship ? "capitalize" : "uppercase",
+                        "font-bold"
+                    )}
+                >
+                    {song.title}
+                </h1>
                 <Link href={"/song-list"}>
                     <Button size={"icon"}>
                         <ListMusicIcon />
                     </Button>
                 </Link>
             </div>
-            <div className="flex w-full justify-between items-center mt-4">
+            <div
+                className={clsx(
+                    isWorship
+                        ? "hidden"
+                        : "flex w-full justify-between items-center mt-4"
+                )}
+            >
                 {songID > 1 ? (
                     <Link href={`/song/${songID - 1}`}>
                         <Button variant={"outline"} onClick={savePrevUrl}>

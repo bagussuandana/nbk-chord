@@ -5,6 +5,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 import { XIcon } from "lucide-react";
+import Link from "next/link";
 
 type Props = {
     worship: Worship;
@@ -43,14 +44,15 @@ const WorshipCard = ({ worship }: Props) => {
                 className="aspect-video w-full md:w-40 object-cover rounded-lg !my-0"
                 onClick={() => openModal(worship.url)}
             />
-            <div>
+            <Link href={`/worship/${worship.id}`} className="w-full">
                 <div className="text-md md:text-lg font-semibold">
                     {worship.title}
                 </div>
                 <span className="text-gray-600 text-sm md:text-base">
                     {worship.creator}
                 </span>
-            </div>
+            </Link>
+
             {isOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
                     <div className="bg-white rounded-lg overflow-hidden max-w-3xl w-full">

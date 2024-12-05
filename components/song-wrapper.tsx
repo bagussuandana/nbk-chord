@@ -4,12 +4,26 @@ import React, { PropsWithChildren } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 
-const SongWrapper = ({ children }: PropsWithChildren) => {
+const SongWrapper = ({
+    children,
+    isWorship,
+}: PropsWithChildren & { isWorship?: boolean }) => {
     const pathname = usePathname(); // Get the current URL path
-
     const pathParts = pathname?.split("/"); // Split by "/"
     const extractedId = pathParts?.[pathParts.length - 1];
-    const id = extractedId ? Number(extractedId) : null;
+
+    const extractInitials = (text: string) => {
+        return text
+            .split("-")
+            .map((word) => word.charAt(0).toUpperCase())
+            .join("");
+    };
+
+    const id = extractedId
+        ? isWorship
+            ? extractInitials(extractedId)
+            : Number(extractedId)
+        : null;
     let prevId = null;
     if (typeof window !== "undefined") {
         prevId = localStorage.getItem("prevUrl");

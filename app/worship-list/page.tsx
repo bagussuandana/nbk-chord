@@ -1,6 +1,6 @@
 import appConfig from "@/app.config";
 import WorshipCard from "@/components/worship-card";
-import worships from "@/worships/worships";
+import { Worship } from "@/types/worship";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,11 +9,12 @@ export const metadata: Metadata = {
 };
 
 export default function SongList() {
+    const { worships } = appConfig;
     return (
         <>
             <div className="container mx-auto p-4">
                 <div className="grid gap-4">
-                    {worships.map((worship) => (
+                    {worships.map((worship: Worship) => (
                         <WorshipCard key={worship.id} worship={worship} />
                     ))}
                 </div>
