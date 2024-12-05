@@ -33,6 +33,10 @@ const appConfig: any = {
       value: "/song-list",
     },
     {
+      name: "Worships",
+      value: "/worship-list",
+    },
+    {
       name: "Kebijakan Privasi",
       value: "/privacy-policy",
     },
@@ -63,6 +67,11 @@ const appConfig: any = {
     title: "Daftar Lagu",
     description:
       "Daftar lagu lagu dari buku lagu Bala Keselamatan dengan mudah, dan nikmati fitur transpose akor untuk memainkan lagu sesuai dengan nada favorit Anda.",
+  },
+  worship_list: {
+    title: "Daftar Pujian",
+    description:
+      "Daftar pujian umum dari banyak sumber dilengkapi akor dan lirik.",
   },
   privacy_policy: {
     title: "Kebijakan Privasi",
