@@ -5,66 +5,41 @@ import TransposerWrapper from "@/components/transposer-wrapper";
 import Transposer from "@/lib/transposer";
 import { Metadata } from "next";
 
-const worshipID = "gloria";
+const worshipID = "doa-yabes";
 export const metadata: Metadata = {
     title: appConfig.worships.find((s: any) => s.id === worshipID).title,
     description: appConfig.worships.find((s: any) => s.id === worshipID)
         .description,
 };
-export default function Gloria() {
+export default function DoaYabes() {
     const { worships } = appConfig;
     const worship = worships.find((s: any) => s.id === worshipID);
     const worshipText = `
 Intro :
-D  G  Bm  G
-D  G  Bm  G
+Bb  C
 
-Bait :
-D                G   D
-Kami Datang Bawa Pujian
-Bm            A
-Bersama MemujiMu Tuhan
-D/F#              G     Bm
-Satukan Suara Dan Nyanyikan
-  Em    A     D
-Sorak Kemenangan
+    F          C/E
+Kiranya Engkau Memberkati
+A         Dm          F/C
+Aku Berlimpah-Limpah
+          Bb   Gm        C Bb C
+Dan Memperluas     Daerahku
+        F          A
+Dan Kiranya Tangan-Mu Menyertai Aku
+      Dm           F/C
+Dan Melindungi Aku
+       Bb         Am   Dm
+Dari Pada Malapetaka
+      Gm       F/A
+Sehingga Kesakitan
+      Bb   C   F
+Tidak Menimpa Aku
 
-Reff :
-D/F#  G   A
-Glo ooo oooria
-D/F#  G   A
-Glo ooo oooria
-D/F#    G    F#/Bb   Bm
-Besar Tuhan, Ditinggikan
-   G         A
-Diatas S'galanya
-
-D/F#  G   A
-Glo ooo oooria
-D/F#  G   A
-Glo ooo oooria
-D/F#    G    F#/Bb   Bm
-Besar Tuhan, Ditinggikan
-       Em  A  D
-Puji Dia Gloria
-
-Bridge :
-G
-  We Give You Glory
-D             Bm
-  We Give You Honour
-A
-  We Give You Praise
-      D/F#
-  For All That You Are
-G
-  We Give You Glory
-D             Bm
-  We Give You Honour
-A
-  We Give You Praise
-    D/F#
-  Gloooria
+Outro :
+Bb             Am
+dan Tuhan mendengarkan
+        Gm     C    C
+dan menjawab doaku
 `;
     return (
         <SongWrapper isWorship>

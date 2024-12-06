@@ -15,9 +15,38 @@ export default function BilaKulihatBintangGemerlapan() {
     const { worships } = appConfig;
     const worship = worships.find((s: any) => s.id === worshipID);
     const worshipText = `
-[Intro]
-D G
-D G
+Verse 1 :
+       A                  D
+Bila kulihat bintang gemerlapan
+          A     E          A    E
+Dan bunyi guruh riuh ‘ku dengar
+        A                D
+Ya Tuhanku tak putus aku heran
+        A    E            A   E
+Melihat ciptaan-Mu yang besar
+
+Chorus :
+       A      D          A  F#m
+Maka jiwa---kupun memuji-Mu
+          Bm E7        A  E
+Sungguh besar Kau Allahku
+       A      D          A  F#m
+Maka jiwa---kupun memuji-Mu
+          Bm E         A
+Sungguh besar Kau Allahku
+
+Verse 2 :
+
+Ya Tuhanku, ‘pabila kure-nungkan 
+Pemberian-Mu dalam Penebus
+‘Ku tertegun bagiku dicu-rahkan
+Oleh Putra-Mu darah-Nya kudus
+
+Verse 3 :
+‘Pabila nanti Kristus memanggilku
+Sukacitaku amatlah besar
+Kar’na terkabullah yang kurindukan
+Melihat Dikau Tuhanku akbar
 `;
     return (
         <SongWrapper isWorship>

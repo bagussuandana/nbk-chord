@@ -89,13 +89,20 @@ const SongHeader = ({ song, isWorship = false }: Props) => {
             <h2 className="capitalize">
                 {song?.description} <span></span>
             </h2>
-            <p className="capitalize">
-                Chord : <span className="text-primary">{song?.chord}</span> |{" "}
-                <span className="text-black dark:text-gray-100">
-                    {song?.rhythm}
-                </span>{" "}
-                | {song?.tempo} | {tempoName}
-            </p>
+            {isWorship ? (
+                <p className="capitalize">
+                    Chord : <span className="text-primary">{song?.chord}</span>
+                </p>
+            ) : (
+                <p className="capitalize">
+                    Chord : <span className="text-primary">{song?.chord}</span>{" "}
+                    |{" "}
+                    <span className="text-black dark:text-gray-100">
+                        {song?.rhythm}
+                    </span>{" "}
+                    | {song?.tempo} | {tempoName}
+                </p>
+            )}
         </div>
     );
 };

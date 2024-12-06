@@ -3,10 +3,10 @@ import { Worship } from "@/types/worship";
 const worship_1_50: Worship[] = [
     {
         id: "bila-kulihat-bintang-gemerlapan",
-        title: "Bila Kulihat Bintang Gemerlapan medley Haleluya Bagi Anak Domba by Granito",
+        title: "Bila Kulihat Bintang Gemerlapan",
         creator: "GBI PRJ CK7",
         url: "https://www.youtube.com/watch?v=ZHxTCh_CTLg",
-        chord: "D",
+        chord: "A",
     },
     {
         id: "gloria",
@@ -28,6 +28,13 @@ const worship_1_50: Worship[] = [
         creator: "UNDVD",
         url: "https://www.youtube.com/watch?v=tIHhhcnkIp4",
         chord: "D",
+    },
+    {
+        id: "doa-yabes",
+        title: "Doa Yabes",
+        creator: "Impact Music Indonesia",
+        url: "https://www.youtube.com/watch?v=JdCKCaKQVSU",
+        chord: "F",
     },
 ];
 
