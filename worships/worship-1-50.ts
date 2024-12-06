@@ -20,7 +20,7 @@ const worship_1_50: Worship[] = [
         title: "You Are Good - Israel Houghton (LIVE RECORDING)",
         creator: "Cornerstone Church",
         url: "https://www.youtube.com/watch?v=708opj5poOc",
-        chord: "D",
+        chord: "E",
     },
     {
         id: "tak-terbatas",
