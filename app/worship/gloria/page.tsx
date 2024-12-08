@@ -51,7 +51,36 @@ Puji Dia Gloria
 Intro :
 D  G  Bm  G
 
-Bridge :
+Bait :
+D                G   D
+Kami Datang Bawa Pujian
+Bm            A
+Bersama MemujiMu Tuhan
+D/F#              G     Bm
+Satukan Suara Dan Nyanyikan
+  Em    A     D
+Sorak Kemenangan
+
+Reff :
+D/F#  G   A
+Glo ooo oooria
+D/F#  G   A
+Glo ooo oooria
+D/F#    G    F#/Bb   Bm
+Besar Tuhan, Ditinggikan
+   G         A
+Diatas S'galanya
+
+D/F#  G   A
+Glo ooo oooria
+D/F#  G   A
+Glo ooo oooria
+D/F#    G    F#/Bb   Bm
+Besar Tuhan, Ditinggikan
+       Em  A  D
+Puji Dia Gloria
+
+Bridge : 3x
 G
   We Give You Glory
 D             Bm
@@ -68,6 +97,29 @@ A
   We Give You Praise
     D/F#
   Gloooria
+
+  Reff :
+D/F#  G   A
+Glo ooo oooria
+D/F#  G   A
+Glo ooo oooria
+D/F#    G    F#/Bb   Bm
+Besar Tuhan, Ditinggikan
+   G         A
+Diatas S'galanya
+
+D/F#  G   A
+Glo ooo oooria
+D/F#  G   A
+Glo ooo oooria
+D/F#    G    F#/Bb   Bm
+Besar Tuhan, Ditinggikan
+       Em  A  D
+Puji Dia Gloria
+
+Outro :
+D  G  Bm  G
+D  G  Bm  G
 `;
     return (
         <SongWrapper isWorship>
