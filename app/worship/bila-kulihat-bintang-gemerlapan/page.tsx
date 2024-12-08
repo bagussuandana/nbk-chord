@@ -15,6 +15,10 @@ export default function BilaKulihatBintangGemerlapan() {
     const { worships } = appConfig;
     const worship = worships.find((s: any) => s.id === worshipID);
     const worshipText = `
+Intro :
+A D F#m E
+A D F#m E
+
 Verse 1 :
        A                  D
 Bila kulihat bintang gemerlapan
