@@ -123,7 +123,7 @@ F# G                  C#  D
     Cara-Mu mengangkatku
 F# G                    D   A
     Cara-Mu mengubah hatiku
-F# G                   C#D
+F# G                   C #D
     Cara-Mu menuntunku
         G          Bm         A     B
     Tak terbatas didalam hidupku
@@ -132,7 +132,7 @@ F# G                   C#D
 Chorus
     E           A
 Tak terbatas kuasa-Mu
-    F#m       B  C#m B  A
+    F#m            B 
 Tak Terduga cara-Mu
     G#m    Cm   C#
 Kau yang kuandalkan
@@ -156,8 +156,9 @@ Di s’gala musim hidupku
  
  
 Outro
+A
 E A
-E A
+E
 `;
     return (
         <SongWrapper isWorship>
