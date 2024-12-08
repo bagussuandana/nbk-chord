@@ -138,28 +138,20 @@ We worship You for who You are
 
    E       B   D          A
 We worship You Hallelujah Hallelujah
-   E       B               D   A
-We worship You for who You are
-   E       B   D          A
-We worship You Hallelujah Hallelujah
    E/G#    Bm7             C    D
 We worship You for who You are
 
-   E       B   D          A
-We worship You Hallelujah Hallelujah
-   E       B               D   A
-We worship You for who You are
    E       B   D          A
 We worship You Hallelujah Hallelujah
    E/G#    Bm7             C    D
 We worship You for who You are
 
 [Outro]
-            D                C/E
+            C                D
 For who You are, For who You are
-            D/F#             Am7
+            C               D
 For who You are, For who You are
-Bm7           E7#9
+             E7#9
     You are Good
 `;
     return (
