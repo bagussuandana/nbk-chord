@@ -117,7 +117,7 @@ F# G                    C# D   A
     Cara-Mu mengubah hatiku
 F# G                   C# D
     Cara-Mu menuntunku
-        G          Bm         A
+F#  G          Bm         A
     Tak terbatas didalam hidupku
 F# G                  C#  D
     Cara-Mu mengangkatku
@@ -125,7 +125,7 @@ F# G                    D   A
     Cara-Mu mengubah hatiku
 F# G                   C# D
     Cara-Mu menuntunku
-        G          Bm         A     B
+F# G          Bm         A     B
     Tak terbatas didalam hidupku
  
  
