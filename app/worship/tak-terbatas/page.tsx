@@ -111,19 +111,19 @@ F# G D C#
  
  
 Bridge
-G                      D
+F# G                    C# D
     Cara-Mu mengangkatku
-G                    D   A
+F# G                    C# D   A
     Cara-Mu mengubah hatiku
-G                   D
+F# G                   C# D
     Cara-Mu menuntunku
         G          Bm         A
     Tak terbatas didalam hidupku
-G                     D
+F# G                  C#  D
     Cara-Mu mengangkatku
-G                    D   A
+F# G                    D   A
     Cara-Mu mengubah hatiku
-G                   D
+F# G                   C#D
     Cara-Mu menuntunku
         G          Bm         A     B
     Tak terbatas didalam hidupku
