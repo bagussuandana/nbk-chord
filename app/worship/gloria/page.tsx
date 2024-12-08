@@ -17,7 +17,9 @@ export default function Gloria() {
     const worshipText = `
 Intro :
 D  G  Bm  G
-D  G  Bm  G
+D  G  B B B A B B B B A B  G
+
+-- wait--
 
 Bait :
 D                G   D
@@ -47,11 +49,22 @@ D/F#    G    F#/Bb   Bm
 Besar Tuhan, Ditinggikan
        Em  A  D
 Puji Dia Gloria
+
+-- wait --
 
 Intro :
-D  G  Bm  G
+D  G  B B B A B B B B A B  G
 
 Bait :
+D                G   D
+Kami Datang Bawa Pujian
+Bm            A
+Bersama MemujiMu Tuhan
+D/F#              G     Bm
+Satukan Suara Dan Nyanyikan
+  Em    A     D
+Sorak Kemenangan
+
 D                G   D
 Kami Datang Bawa Pujian
 Bm            A
@@ -79,6 +92,8 @@ D/F#    G    F#/Bb   Bm
 Besar Tuhan, Ditinggikan
        Em  A  D
 Puji Dia Gloria
+
+-- wait --
 
 Bridge : 3x
 G
@@ -89,6 +104,7 @@ A
   We Give You Praise
       D/F#
   For All That You Are
+
 G
   We Give You Glory
 D             Bm
@@ -114,12 +130,12 @@ D/F#  G   A
 Glo ooo oooria
 D/F#    G    F#/Bb   Bm
 Besar Tuhan, Ditinggikan
-       Em  A  D
-Puji Dia Gloria
+       Em        A        D
+Puji Dia ...  Glo ...  ria
 
 Outro :
 D  G  Bm  G
-D  G  Bm  G
+D
 `;
     return (
         <SongWrapper isWorship>
