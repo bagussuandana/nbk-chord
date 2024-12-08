@@ -37,7 +37,7 @@ People from every nation and tongue
 C/A                D/A
 From generation to generation
  
-[Chorus]
+Chorus
    E       B   D          A
 We worship You Hallelujah Hallelujah
    E       B               D   A
@@ -68,7 +68,7 @@ People from every nation and tongue
 C/A                D/A
 From generation to generation
  
-[Chorus]
+Chorus
    E       B   D          A
 We worship You Hallelujah Hallelujah
    E       B               D   A
@@ -88,11 +88,72 @@ Play this riff:
 7--7--10--10--12
 7--7--5--5--4
 3-3---2
+
+---4x-----
+
+E E G G A
+E E D D C#
+E E G G A
+E E D D C#
+C C B
  
 N.C.
 You are good all the time, all the time You are good!
 (repeat)
  
+[Verse]
+E
+Lord You are good
+         B/E               D/E   A/E
+And Your mercy endureth forever
+E
+Lord You are good
+         B/E               D/E   A/E
+And Your mercy endureth forever      (People from every nation)
+ 
+E
+Lord You are good
+         B/E               D/E   A/E
+And Your mercy endureth forever
+E
+Lord You are good
+         B/E               D/E   A/E
+And Your mercy endureth forever      (People from every nation)
+
+Pre-Chorus
+A                 B/A
+People from every nation and tongue
+C/A                D/A
+From generation to generation
+ 
+Chorus
+   E       B   D          A
+We worship You Hallelujah Hallelujah
+   E       B               D   A
+We worship You for who You are
+   E       B   D          A
+We worship You Hallelujah Hallelujah
+   E/G#    Bm7             C    D
+We worship You for who You are
+
+   E       B   D          A
+We worship You Hallelujah Hallelujah
+   E       B               D   A
+We worship You for who You are
+   E       B   D          A
+We worship You Hallelujah Hallelujah
+   E/G#    Bm7             C    D
+We worship You for who You are
+
+   E       B   D          A
+We worship You Hallelujah Hallelujah
+   E       B               D   A
+We worship You for who You are
+   E       B   D          A
+We worship You Hallelujah Hallelujah
+   E/G#    Bm7             C    D
+We worship You for who You are
+
 [Outro]
             D                C/E
 For who You are, For who You are
