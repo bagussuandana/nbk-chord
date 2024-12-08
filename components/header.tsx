@@ -43,7 +43,11 @@ const Header = () => {
                             />
                         )}
                         {logo?.text && (
-                            <div className={"ml-1 text-lg font-semibold"}>
+                            <div
+                                className={
+                                    "ml-1 text-lg font-semibold lg:block hidden"
+                                }
+                            >
                                 {logo?.text}
                             </div>
                         )}

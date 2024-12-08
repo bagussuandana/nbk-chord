@@ -28,10 +28,6 @@ const appConfig: any = {
     githubRepo: "https://github.com/bagussuandana/nbk-chord",
     routes: [
         {
-            name: "Beranda",
-            value: "/",
-        },
-        {
             name: "Daftar Lagu",
             value: "/song-list",
         },
