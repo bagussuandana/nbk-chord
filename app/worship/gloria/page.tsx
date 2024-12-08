@@ -48,6 +48,9 @@ Besar Tuhan, Ditinggikan
        Em  A  D
 Puji Dia Gloria
 
+Intro :
+D  G  Bm  G
+
 Bridge :
 G
   We Give You Glory

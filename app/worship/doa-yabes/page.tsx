@@ -18,9 +18,9 @@ export default function DoaYabes() {
 Intro :
 Bb  C
 
-    F          C/E
+    F                 A
 Kiranya Engkau Memberkati
-A         Dm          F/C
+         Dm          F/C
 Aku Berlimpah-Limpah
           Bb   Gm        C Bb C
 Dan Memperluas     Daerahku
@@ -38,7 +38,7 @@ Tidak Menimpa Aku
 Outro :
 Bb             Am
 dan Tuhan mendengarkan
-        Gm     C    C
+        Gm     C    F
 dan menjawab doaku
 `;
     return (

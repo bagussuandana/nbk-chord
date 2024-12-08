@@ -35,6 +35,8 @@ Maka jiwa---kupun memuji-Mu
           Bm E         A
 Sungguh besar Kau Allahku
 
+Verse 1 diulang nx sesuai leader
+
 Verse 2 :
 
 Ya Tuhanku, ‘pabila kure-nungkan 
