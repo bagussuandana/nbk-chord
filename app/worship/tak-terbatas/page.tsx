@@ -32,7 +32,7 @@ Kau hadir tuk mengangkatku, ku tahu
 Kau tak menyerah akan hidupku
  
  
-[Verse 2]
+Verse 2
       D          G
 Kukagumi cara-Mu mencintaiku
         A                     D
@@ -45,7 +45,7 @@ Kau hadir tuk mengangkatku, ku tahu
 Kau tak menyerah akan hidupku
  
  
-[Chorus]
+Chorus
     D           G
 Tak terbatas kuasa-Mu
     Em        A
@@ -123,7 +123,7 @@ F# G                  C#  D
     Cara-Mu mengangkatku
 F# G                    D   A
     Cara-Mu mengubah hatiku
-F# G                   C #D
+F# G                   C# D
     Cara-Mu menuntunku
         G          Bm         A     B
     Tak terbatas didalam hidupku
@@ -138,6 +138,7 @@ Tak Terduga cara-Mu
 Kau yang kuandalkan
          F#m          B
 Disetiap langkah hidupku
+
     E          A
 Tak terbatas Kasih-Mu
     F#m       B
@@ -156,7 +157,7 @@ Di s’gala musim hidupku
  
  
 Outro
-A
+E A
 E A
 E
 `;
