@@ -10,6 +10,14 @@ const song_251_300: Song[] = [
         tempo: "76",
     },
     {
+        id: "254",
+        title: "NBK-254",
+        description: "kudatang padamu tuhan",
+        chord: "E",
+        rhythm: "6/8",
+        tempo: "54",
+    },
+    {
         id: "267",
         title: "NBK-267",
         description: "tuhan yesus engkau saja",

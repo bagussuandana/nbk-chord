@@ -14,29 +14,39 @@ export default function NBK32() {
     const { songs } = appConfig;
     const song = songs.find((s: any) => s.id === songID);
     const songText = `
-1. Ku tak mengerti mengapa Ia datang ke
-dalam dunia yang g'lap fana, di kandang
-Betlehem yang sangat hina Yesus lahir,
-baring di palungan.
+       C                   F
+Ku tak mengerti mengapa Ia datang
+         C                G  G7
+ke dalam dunia yang g'lap fana,
+          C                     F
+di kandang Betlehem yang sangat hina
+          C       Dm     G     C  G
+Yesus lahir, baring di palungan.
 
 Koor :
-Ini 'ku tahu : Ia datang kar'na cinta, tak
-hiraukan sengsara dan hina;
-Cinta ajaib yang b'ri kita kes'lamatan, hidup
-kekal, sentosa dan bahagia.
+        C          F            C   Em 
+Ini 'ku tahu : Ia datang kar'na cinta,
+          Am        D        G  G7
+tak hiraukan sengsara dan hina;
+       C         F         C       Am
+Cinta ajaib yang b'ri kita kes'lamatan,
+      Dm             G          C
+hidup kekal, sentosa dan bahagia.
 
-2. Ku tak mengerti Ia yang dimuliakan o leh
-malaikat disurga baka, mau menderita dan
-disengsarakan, Akhirnya mati disalib hina.
+Ku tak mengerti Ia yang dimuliakan
+oleh malaikat disurga baka,
+mau menderita dan disengsarakan,
+Akhirnya mati disalib hina.
 
-3. Ku tak mengerti mengapa Ia rela menjadi
-sahabat manusia, tak hiraukan berdosa,
-miskin, kaya, bagi semua besar kasih-Nya.
+Ku tak mengerti mengapa Ia rela
+menjadi sahabat manusia,
+tak hiraukan berdosa, miskin, kaya,
+bagi semua besar kasih-Nya.
 
-4. Ku tak mengerti Ia mau menyediakan
-surga baka bagi kita s'mua, hidup kekal
-dalam kemuliaan-Nya , senang, sentosa di
-rumah Bapa.
+Ku tak mengerti Ia mau menyediakan
+surga baka bagi kita s'mua,
+hidup kekal dalam kemuliaan-Nya ,
+senang, sentosa di rumah Bapa.
 `;
     return (
         <SongWrapper>

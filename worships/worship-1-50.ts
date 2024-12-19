@@ -36,6 +36,20 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=JdCKCaKQVSU",
         chord: "F",
     },
+    {
+        id: "natal-di-hatiku",
+        title: "Natal Di Hatiku",
+        creator: "UNDVD",
+        url: "https://www.youtube.com/watch?v=uZgdUpdv4_0",
+        chord: "G",
+    },
+    {
+        id: "dia-lahir-untuk-kami",
+        title: "Dia Lahir Untuk Kami",
+        creator: "William S. Hays",
+        url: "https://www.youtube.com/watch?v=0EDWKZ7ALZQ",
+        chord: "C",
+    },
 ];
 
 export default worship_1_50;
