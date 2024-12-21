@@ -17,17 +17,17 @@ export default function DiaLahirUntukKami() {
     const worshipText = `
     C            C7       F           C
 Dia lahir untuk kami, Dia mati untuk kami
-    Am            D7       A# G
+    C            D7       Bb G
 Dia bangkit untuk kami semua
     C          C7       F          C
 Dia itu Tuhan kami, Dia itu Allah kami
-    C    Am    Dm    G     C
+    C    Am    Dm    G     C C7
 Dia Raja di atas s'gala raja
 
 Reff:
-    F                     C           Em
+    F                     C           Am
 Dia itu Firman Allah yang turun ke bumi
-     Am        D7           A# G
+     C        D7           Bb G
 Yang jadi sama dengan manusia
     C            C7       F            C
 Dia Yesus sobat kami, Dia Yesus Tuhan kami

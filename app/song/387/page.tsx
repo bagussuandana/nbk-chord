@@ -22,13 +22,13 @@ merajai dunia!
 Biarlah hatimu
  G     A      D
 terbuka bagi-Nya,
- D      F#m       Bm
+ D  
 seg'nap alam nyanyi,
-  Em             A
+  A            
 seg'nap alam nyanyi,
-  Bm   G   D   Bm
+  D          G
 seg'nap, seg'nap
-Em     A     D
+    A       D
 alam menyanyi.
 
 Bersukalah Penebusmu

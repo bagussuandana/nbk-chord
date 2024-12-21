@@ -62,7 +62,7 @@ const SongWrapper = ({
                 {...AnimationSettings}
                 key={`nbk-${id}`} // Use the id from the URL as the key
             >
-                <div className="absolute text-[200px]  md:text-[299px] text-gray-900/5 dark:text-gray-50/5 bottom-0 right-0">
+                <div className="absolute text-[200px] text-gray-900/5 dark:text-gray-50/5 bottom-0 right-0">
                     {id}
                 </div>
                 <section className="prose dark:prose-invert max-w-full">

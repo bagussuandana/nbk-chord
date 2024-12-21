@@ -16,50 +16,50 @@ export default function NatalDiHatiku() {
     const worship = worships.find((s: any) => s.id === worshipID);
     const worshipText = `
 Bait :
-G    Am    G/B
+G    Am    Bm
 Se - per - ti
-C/E   D/F#  G
+C      D       G
 Pa  -  lung - an
-C           G/B
+C           G
 Layakkanlah Hatiku
   Am          D
 MenyambutMu Tuhan
 
-G    Am    G/B
+G    Am     B
 Se - per - ti
-      C            C#dim
+      C            Cm
 Emas, Kemenyan Dan Mur
-     G/D       A/C#      D
+     G        A           D
 Biar Hidupku Berkenan Pada-Mu
 
 Reff :
-      G         D/F#   Em
+      G         D     Em
 Sebab Natal Tak Akan Berarti
-   Bm      C   G/B
+   Bm      C  
 Tanpa KasihMu
       Am     D
 Lahir Di Hatiku
 
-      G      D/F#
+      G      D
 Hanya BersamaMu
       Em    Bm
 Yesus Kurasakan
-    C   G/B
+    C 
 Selalu
      Am        D      G
 Indahnya Natal Di Hatiku
 
 Bridge :
-     C         D/C
+     C         D
 Bersama Paduan Suara
    B           Em
 Surga Ku Bernyanyi
     C           D            Em
 Kemuliaan Di Tempat Maha Tinggi
 
-      C          D/C
+      C          D
 Dan Damai Sejahtera
-       B    B/D#   Em
+       B           Em
 Di Antara Manusi - a
        C           Am      D
 Yang Hidupnya Berkenan KepadaMu

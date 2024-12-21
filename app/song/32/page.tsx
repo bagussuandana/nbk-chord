@@ -20,11 +20,11 @@ Ku tak mengerti mengapa Ia datang
 ke dalam dunia yang g'lap fana,
           C                     F
 di kandang Betlehem yang sangat hina
-          C       Dm     G     C  G
+          C           G     C  C7
 Yesus lahir, baring di palungan.
 
 Koor :
-        C          F            C   Em 
+          F            C   Em 
 Ini 'ku tahu : Ia datang kar'na cinta,
           Am        D        G  G7
 tak hiraukan sengsara dan hina;

@@ -22,19 +22,19 @@ dan memohon pertolongan,
 dengarlah doaku;
 C  C7          F   C
 Di dalam suka dan duka,
-G   C     G     F   G   C
+  C       G      F      C
 Engkaulah yang kubutuhkan,
- F     C    G    C
+     C    G    C
 'Kau s'mua bagiku.
 
 Koor :
 C     C7    F   C
 S'mua dalam semua,
-F   C     D       C
+   C     G       C
 bagiku Kristus s'mua;
 C     C7    F   C
 S'mua dalam s'mua,
-F   C     G     C
+   C     G     C
 bagiku Ia s'mua.
 
 S'gala kemuliaan dunia,
