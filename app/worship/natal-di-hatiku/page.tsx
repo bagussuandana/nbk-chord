@@ -18,7 +18,7 @@ export default function NatalDiHatiku() {
 Bait :
 G    Am    Bm
 Se - per - ti
-C      D       G
+C      D       Em
 Pa  -  lung - an
 C           G
 Layakkanlah Hatiku

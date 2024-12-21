@@ -18,9 +18,9 @@ D             G   A  D
 Bersukalah Tuhan datang
 G     A      D
 merajai dunia!
- G    A      D
+ D
 Biarlah hatimu
- G     A      D
+ D
 terbuka bagi-Nya,
  D  
 seg'nap alam nyanyi,
