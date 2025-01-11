@@ -50,6 +50,13 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=0EDWKZ7ALZQ",
         chord: "C",
     },
+    {
+        id: "segenap-hidup",
+        title: "Segenap Hidup",
+        creator: "Symphony Worship Family",
+        url: "https://www.youtube.com/watch?v=gIeiXTERRxI",
+        chord: "G",
+    },
 ];
 
 export default worship_1_50;
