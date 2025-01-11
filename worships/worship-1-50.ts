@@ -57,6 +57,13 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=gIeiXTERRxI",
         chord: "G",
     },
+    {
+        id: "tetap-setia",
+        title: "Tetap Setia",
+        creator: "JPCC Worship",
+        url: "https://www.youtube.com/watch?v=JDYGY0clMt4",
+        chord: "C",
+    },
 ];
 
 export default worship_1_50;

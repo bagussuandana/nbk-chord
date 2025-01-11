@@ -5,6 +5,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import { ChevronLeft, ChevronRight, ListMusicIcon } from "lucide-react";
 import clsx from "clsx";
+import YoutubeThumbnail from "./youtube-thumbnail";
 
 type Props = {
     song: {
@@ -90,9 +91,13 @@ const SongHeader = ({ song, isWorship = false }: Props) => {
                 {song?.description} <span></span>
             </h2>
             {isWorship ? (
-                <p className="capitalize">
-                    Chord : <span className="text-primary">{song?.chord}</span>
-                </p>
+                <div className="flex flex-col">
+                    <YoutubeThumbnail worship={song as any} />
+                    <p className="capitalize">
+                        Chord :{" "}
+                        <span className="text-primary">{song?.chord}</span>
+                    </p>
+                </div>
             ) : (
                 <p className="capitalize">
                     Chord : <span className="text-primary">{song?.chord}</span>{" "}
