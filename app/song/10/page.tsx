@@ -32,7 +32,7 @@ kepada kita s'kalian;
 Oleh Kristus, kita
     F    G7      C  C7
 t'rima anug'rah-Nya,
-   F    D7   Gm
+ Bb    Am    Gm
 tiap-tiap hari
   C      C7    F
 besar kecinta'n-Nya.

@@ -64,6 +64,13 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=JDYGY0clMt4",
         chord: "C",
     },
+    {
+        id: "langit-dan-bumi-pujilah-tuhan",
+        title: "Langit dan Bumi Pujilah Tuhan",
+        creator: "Symphony Worship Family",
+        url: "https://www.youtube.com/watch?v=EqkKt5qUV6U",
+        chord: "A",
+    },
 ];
 
 export default worship_1_50;
