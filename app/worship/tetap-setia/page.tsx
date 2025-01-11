@@ -76,12 +76,16 @@ T’lah Kulihat Kebaikan-Mu
 Yang Tak Pernah Habis Dihidupku
     F     G/F     Em
 Kuberjuang Sampai Akhirnya
-A       Dm     G       C
+A       Dm     G       C  D
 Kau Dapati Aku Tetap Setia
 
 Overtune:
 
 Guitar solo:
+G          Asus4
+Bm E7 Asus4
+Em D Bb7 Am7
+G#7 Gm7 G
 
 Reff :
        G  A/G     F#m  Bm
