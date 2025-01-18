@@ -85,6 +85,13 @@ const worship_1_50: Worship[] = [
     url: 'https://www.youtube.com/watch?v=ZzbDCUcZSPw',
     chord: 'G',
   },
+  {
+    id: 'penuhkanlah-bejanaku',
+    title: 'Penuhkanlah Bejanaku',
+    creator: 'Nanto Hastono',
+    url: 'https://www.youtube.com/watch?v=WsVESPPYYFk',
+    chord: 'G',
+  },
 ];
 
 export default worship_1_50;
