@@ -1,24 +1,24 @@
-import appConfig from "@/app.config";
-import SongHeader from "@/components/song-header";
-import SongWrapper from "@/components/song-wrapper";
-import TransposerWrapper from "@/components/transposer-wrapper";
-import Transposer from "@/lib/transposer";
-import { Metadata } from "next";
+import appConfig from '@/app.config';
+import SongHeader from '@/components/song-header';
+import SongWrapper from '@/components/song-wrapper';
+import TransposerWrapper from '@/components/transposer-wrapper';
+import Transposer from '@/lib/transposer';
+import { Metadata } from 'next';
 
-const songID = "346";
+const songID = '346';
 export const metadata: Metadata = {
-    title: appConfig.songs.find((s: any) => s.id === songID).title,
-    description: appConfig.songs.find((s: any) => s.id === songID).description,
+  title: appConfig.songs.find((s: any) => s.id === songID).title,
+  description: appConfig.songs.find((s: any) => s.id === songID).description,
 };
 export default function NBK346() {
-    const { songs } = appConfig;
-    const song = songs.find((s: any) => s.id === songID);
-    const songText = `
+  const { songs } = appConfig;
+  const song = songs.find((s: any) => s.id === songID);
+  const songText = `
 D
 Tuhanlah batu karangku,
 D                     A
 naungan yang tetap teguh;
-D
+  Bm       C#m       D     Bm
 Ku s'lamat dari tiap set'ru,
 D            A      D   D7
 naungan yang tetap teguh.
@@ -48,15 +48,12 @@ naungan yang tetap teguh;
 Penolongku selamanya,
 naungan yang tetap teguh.
 `;
-    return (
-        <SongWrapper>
-            <SongHeader song={song} />
-            <TransposerWrapper>
-                <Transposer
-                    initialKey={song.chord as string}
-                    songText={songText}
-                />
-            </TransposerWrapper>
-        </SongWrapper>
-    );
+  return (
+    <SongWrapper>
+      <SongHeader song={song} />
+      <TransposerWrapper>
+        <Transposer initialKey={song.chord as string} songText={songText} />
+      </TransposerWrapper>
+    </SongWrapper>
+  );
 }

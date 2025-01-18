@@ -49,6 +49,14 @@ const song_151_200: Song[] = [
     rhythm: '4/4',
     tempo: '72',
   },
+  {
+    id: '195',
+    title: 'NBK-195',
+    description: 'Tuhan bimbing hidupku',
+    chord: 'C',
+    rhythm: '4/4',
+    tempo: '72',
+  },
 ];
 
 export default song_151_200;
