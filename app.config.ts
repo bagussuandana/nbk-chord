@@ -11,6 +11,7 @@ import song_350_400 from './songs/song-351-400';
 import song_400_422 from './songs/song-401-442';
 // worships
 import worship_1_50 from './worships/worship-1-50';
+import chorus_1_50 from './choruses/chorus-1-50';
 
 const appConfig: any = {
   author: 'Gusti Bagus Suandana',
@@ -76,6 +77,11 @@ const appConfig: any = {
     title: 'Daftar Pujian',
     description:
       'Daftar pujian umum dari banyak sumber dilengkapi akor dan lirik.',
+  },
+  chorus_list: {
+    title: 'Daftar Chorus',
+    description:
+      'Daftar chorus umum dari banyak sumber dilengkapi akor dan lirik.',
   },
   privacy_policy: {
     title: 'Kebijakan Privasi',
@@ -217,6 +223,7 @@ const appConfig: any = {
     ...song_400_422,
   ],
   worships: [...worship_1_50],
+  choruses: [...chorus_1_50],
 };
 
 export default appConfig;
