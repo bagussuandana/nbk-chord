@@ -78,6 +78,13 @@ const worship_1_50: Worship[] = [
     url: 'https://www.youtube.com/watch?v=il2x62nvWWc',
     chord: 'C',
   },
+  {
+    id: 'besarkan-nama-tuhan',
+    title: 'Besarkan Nama Tuhan',
+    creator: 'Bethany Nginden Surabaya',
+    url: 'https://www.youtube.com/watch?v=ZzbDCUcZSPw',
+    chord: 'G',
+  },
 ];
 
 export default worship_1_50;
