@@ -6,6 +6,7 @@ import { Button } from './ui/button';
 import { ChevronLeft, ChevronRight, ListMusicIcon } from 'lucide-react';
 import clsx from 'clsx';
 import YoutubeThumbnail from './youtube-thumbnail';
+import ShareDropdown from './share-dropdown';
 
 type Props = {
   song: {
@@ -90,24 +91,29 @@ const SongHeader = ({ song, isWorship = false, isChorus = false }: Props) => {
       <h2 className='capitalize'>
         {song?.description} <span></span>
       </h2>
-      {isWorship ? (
-        <div className='flex flex-col'>
-          <YoutubeThumbnail worship={song as any} />
+      <div className='flex justify-between items-center'>
+        {isWorship ? (
+          <div className='flex flex-col'>
+            <YoutubeThumbnail worship={song as any} />
+            <p className='capitalize'>
+              Chord : <span className='text-primary'>{song?.chord}</span>
+            </p>
+          </div>
+        ) : isChorus ? (
           <p className='capitalize'>
             Chord : <span className='text-primary'>{song?.chord}</span>
           </p>
-        </div>
-      ) : isChorus ? (
-        <p className='capitalize'>
-          Chord : <span className='text-primary'>{song?.chord}</span>
-        </p>
-      ) : (
-        <p className='capitalize'>
-          Chord : <span className='text-primary'>{song?.chord}</span> |{' '}
-          <span className='text-black dark:text-gray-100'>{song?.rhythm}</span>{' '}
-          | {song?.tempo} | {tempoName}
-        </p>
-      )}
+        ) : (
+          <p className='capitalize'>
+            Chord : <span className='text-primary'>{song?.chord}</span> |{' '}
+            <span className='text-black dark:text-gray-100'>
+              {song?.rhythm}
+            </span>{' '}
+            | {song?.tempo} | {tempoName}
+          </p>
+        )}
+        <ShareDropdown />
+      </div>
     </div>
   );
 };
