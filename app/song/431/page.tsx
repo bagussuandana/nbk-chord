@@ -1,27 +1,28 @@
-import appConfig from '@/app.config';
-import SongHeader from '@/components/song-header';
-import SongWrapper from '@/components/song-wrapper';
-import TransposerWrapper from '@/components/transposer-wrapper';
-import Transposer from '@/lib/transposer';
-import { Metadata } from 'next';
+import appConfig from "@/app.config";
+import SongHeader from "@/components/song-header";
+import SongWrapper from "@/components/song-wrapper";
+import TransposerWrapper from "@/components/transposer-wrapper";
+import Transposer from "@/lib/transposer";
+import { Metadata } from "next";
 
-const songID = '431';
+const songID = "431";
 export const metadata: Metadata = {
-  title: appConfig.songs.find((s: any) => s.id === songID).title,
-  description: appConfig.songs.find((s: any) => s.id === songID).description,
+    title: appConfig.songs.find((s: any) => s.id === songID).title,
+    description: appConfig.songs.find((s: any) => s.id === songID).description,
 };
 export default function NBK431() {
-  const { songs } = appConfig;
-  const song = songs.find((s: any) => s.id === songID);
-  const songText = `
+    const { songs } = appConfig;
+    const song = songs.find((s: any) => s.id === songID);
+    const songText = `
   Intro:
+  5 5  1 2 3 1  2 1 3 2 1
  C Am Dm G C
 
   C    
 Tanam waktu pagi,
   F
 bibit cinta Allah,
- C          Am
+ C     G/B     Am
 tanam waktu siang
   Dm          G
 dan petang juga;
@@ -29,9 +30,9 @@ dan petang juga;
 Tunggu musim panen
  F
 nanti akan datang,
- C          Am
+ C     G/B     Am
 dalam pesta panen
-  Dm          G
+  Dm    G    C
 kita bergirang.
 
 Koor :
@@ -39,7 +40,7 @@ Koor :
 Kita bergirang,
  F           C
 membawa pulang,
-  C          Am
+  C    G/B    Am
 hasil jiwa-jiwa
   D          G
 dalam surga t'rang,
@@ -47,7 +48,7 @@ dalam surga t'rang,
 Meski pun lemah,
  F
 Tuhan yang kuasa,
-  C          Am
+  C    G/B      Am
 tolong kita bawa
   Dm   G    C
 jiwa pada-Nya.
@@ -70,12 +71,15 @@ kita s'lamat datang,
 kita 'kan bersuka
 dalam surga t'rang.
 `;
-  return (
-    <SongWrapper>
-      <SongHeader song={song} />
-      <TransposerWrapper>
-        <Transposer initialKey={song.chord as string} songText={songText} />
-      </TransposerWrapper>
-    </SongWrapper>
-  );
+    return (
+        <SongWrapper>
+            <SongHeader song={song} />
+            <TransposerWrapper>
+                <Transposer
+                    initialKey={song.chord as string}
+                    songText={songText}
+                />
+            </TransposerWrapper>
+        </SongWrapper>
+    );
 }
