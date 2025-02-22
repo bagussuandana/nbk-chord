@@ -14,27 +14,27 @@ export default function NBK254() {
     const { songs } = appConfig;
     const song = songs.find((s: any) => s.id === songID);
     const songText = `
-    C         G        C
+    C          G        C
 Ku datang pada-Mu, Tuhan,
     C     Em       F   C
 dan memohon pertolongan,
-    C     G     C
+    Am     G   C
 dengarlah doaku;
 C  C7          F   C
 Di dalam suka dan duka,
-  C       G      F      C
+   Am     G      F      C
 Engkaulah yang kubutuhkan,
-     C    G    C
+     Am    G    C
 'Kau s'mua bagiku.
 
 Koor :
 C     C7    F   C
 S'mua dalam semua,
-   C     G       C
+   Am     G     C
 bagiku Kristus s'mua;
 C     C7    F   C
 S'mua dalam s'mua,
-   C     G     C
+   Am   G     C
 bagiku Ia s'mua.
 
 S'gala kemuliaan dunia,
