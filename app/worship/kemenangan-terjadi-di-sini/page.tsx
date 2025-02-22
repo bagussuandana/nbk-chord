@@ -16,7 +16,8 @@ export default function KemenanganTerjadiDiSini() {
     const worship = worships.find((s: any) => s.id === worshipID);
     const worshipText = `
 [Intro]
- Gsus4  G  Em  D 
+23523  23523  23523  21
+Gsus4  G      Em     D 
 
 [Verse 1]
 G                    Em
