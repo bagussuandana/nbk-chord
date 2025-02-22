@@ -99,6 +99,13 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=uAzf_0RQZtQ",
         chord: "D",
     },
+    {
+        id: "kemenangan-terjadi-di-sini",
+        title: "Kemenangan Terjadi Di Sini",
+        creator: "GMS",
+        url: "https://www.youtube.com/watch?v=-7sdJ_ZXIsU",
+        chord: "G",
+    },
 ];
 
 export default worship_1_50;
