@@ -106,6 +106,13 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=-7sdJ_ZXIsU",
         chord: "G",
     },
+    {
+        id: "hari-ini-kurasa-bahagia",
+        title: "Kasih yang Mempersatukan (Hari Ini Kurasa Bahagia)",
+        creator: "GKDI",
+        url: "https://www.youtube.com/watch?v=YHcOM7lWYv8",
+        chord: "C",
+    },
 ];
 
 export default worship_1_50;
