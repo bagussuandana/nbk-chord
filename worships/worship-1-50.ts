@@ -113,6 +113,13 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=YHcOM7lWYv8",
         chord: "C",
     },
+    {
+        id: "roh-elkudus-roh-tuhan-holy-spirit-move-again",
+        title: "Roh Elkudus Roh Tuhan - Holy Spirit Move Again",
+        creator: "BK - Symphony Worship Family",
+        url: "https://www.youtube.com/watch?v=_hSvRsd5u3Y",
+        chord: "C",
+    },
 ];
 
 export default worship_1_50;
