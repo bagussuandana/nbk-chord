@@ -69,7 +69,7 @@ const song_1_50: Song[] = [
         id: "9",
         title: "NBK-9",
         description: "mari bersama menyanyi",
-        chord: "D",
+        chord: "C",
         rhythm: "4/4",
         tempo: "112",
     },

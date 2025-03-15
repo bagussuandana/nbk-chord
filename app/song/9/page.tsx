@@ -14,29 +14,63 @@ export default function NBK9() {
     const { songs } = appConfig;
     const song = songs.find((s: any) => s.id === songID);
     const songText = `
-1. Mari bersama menyanyi: Allah baik ! Surga
-dan dunia memuji: Allah baik ! Bangunlah, hai
-jiwa-jiwa dari tidur dalam dosa! Kini ramai-
-ramai nyanyilah: Allah baik !
+[Intro]:
+11.111 2176 52 1 0
+C  C7  F D7  Dm G C
+
+C       Em      F G C
+Mari bersama menyanyi:
+F    G    C
+Allah baik !
+C       Em      F G Am
+Surga dan dunia memuji:
+D       G
+Allah baik !
+Dm         G           C
+Bangunlah, hai jiwa-jiwa
+Dm         G           C
+dari tidur dalam dosa!
+C       C7     F     D7
+Kini ramai-ramai nyanyilah:
+Dm    G    C
+Allah baik !
 
 Koor :
-Allah baik ! Allah baik ! Marilah bersama
-menyanyi: Allah baik !
+C   A7    Dm
+Allah baik !
+G         C
+Allah baik !
+C       C7     F     D7
+Marilah bersama menyanyi:
+Dm    G    C
+Allah baik !
 
-2. B'ritakan ke s'luruh bumi: Allah baik ! Darah
-Yesus memb'ri damai, Allah baik ! Dosa kita
-dihapuskan, malam yang g'lap dilenyapkan,
-sekarang kita memujikan: Allah baik !
+B'ritakan ke s'luruh bumi:
+Allah baik !
+Darah Yesus memb'ri damai,
+Allah baik !
+Dosa kita dihapuskan,
+malam yang g'lap dilenyapkan,
+sekarang kita memujikan:
+Allah baik !
 
-3. S'karang kita hidup baru, Allah baik !
-Perjanjian-Nya tetap teguh, Allah baik ! Dia
-penolong yang s'tia, harapan kita s'lamanya,
-Dia s'lalu menyertai kita, Allah baik !
+S'karang kita hidup baru,
+Allah baik !
+Perjanjian-Nya tetap teguh,
+Allah baik !
+Dia penolong yang s'tia,
+harapan kita s'lamanya,
+Dia s'lalu menyertai kita,
+Allah baik !
 
-4. Meski sengsara hidupku, Allah baik ! Kristus
-mengalahkan set'ru! Allah baik ! Maut tidak
-lagi takutkan! Yesus tak akan tinggalkan,
-serta dari kubur bangkitan, Allah baik !
+Meski sengsara hidupku,
+Allah baik !
+Kristus mengalahkan set'ru!
+Allah baik !
+Maut tidak lagi takutkan!
+Yesus tak akan tinggalkan,
+serta dari kubur bangkitan,
+Allah baik !
 `;
     return (
         <SongWrapper>

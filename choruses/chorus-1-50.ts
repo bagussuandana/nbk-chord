@@ -27,6 +27,16 @@ const chorus_1_50: Chorus[] = [
         title: "Hanya Dekat Allah Saja",
         chord: "D",
     },
+    {
+        id: "kujalan-dengan-yesus-tiap-hari-medley-jalan-di-trang-matahari",
+        title: "Kujalan dengan Yesus Tiap hari Medley jalan di T’rang Matahari",
+        chord: "A",
+    },
+    {
+        id: "sungai-sukacitamu",
+        title: "Sungai SukacitaMU",
+        chord: "G",
+    },
 ];
 
 export default chorus_1_50;

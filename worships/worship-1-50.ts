@@ -120,6 +120,20 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=_hSvRsd5u3Y",
         chord: "C",
     },
+    {
+        id: "tahta-sucinya",
+        title: "Tahta SuciNya",
+        creator: "Gloria Trio",
+        url: "https://www.youtube.com/watch?v=-f1_GmVPljw",
+        chord: "C",
+    },
+    {
+        id: "hidup-ini-adalah-kesempatan",
+        title: "Hidup Ini Adalah Kesempatan",
+        creator: "(Cover) | GKDI Worship",
+        url: "https://www.youtube.com/watch?v=eXsLLMBclAM",
+        chord: "D",
+    },
 ];
 
 export default worship_1_50;
