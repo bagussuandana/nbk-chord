@@ -141,6 +141,13 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=OLX75OqazBM",
         chord: "A",
     },
+    {
+        id: "ku-kagum-hormat-akan-engkau",
+        title: "Ku Kagum Hormat Akan Engkau",
+        creator: "JPCC",
+        url: "https://www.youtube.com/watch?v=0cajopXt9rk",
+        chord: "G",
+    },
 ];
 
 export default worship_1_50;
