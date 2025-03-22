@@ -25,12 +25,12 @@ supaya jiwaku segar;
 mari Roh Suci
    C        Dm
 ajar ku berdoa
-  Bb      F    C     F
+  Bb      F Dm  Gm C  F
 sehingga kujumpa Allah
 `;
     return (
         <SongWrapper isChorus>
-            <SongHeader song={songChorus} isChorus />
+            <SongHeader song={songChorus} isSongChorus />
             <TransposerWrapper>
                 <Transposer
                     initialKey={songChorus.chord as string}
