@@ -19,9 +19,15 @@ type Props = {
     };
     isWorship?: boolean;
     isChorus?: boolean;
+    isSongChorus?: boolean;
 };
 
-const SongHeader = ({ song, isWorship = false, isChorus = false }: Props) => {
+const SongHeader = ({
+    song,
+    isWorship = false,
+    isChorus = false,
+    isSongChorus = false,
+}: Props) => {
     const { tempos } = appConfig;
     const getTempoName = (bpm: number): string | null => {
         for (const tempo of tempos) {
@@ -49,6 +55,8 @@ const SongHeader = ({ song, isWorship = false, isChorus = false }: Props) => {
         category = "worship";
     } else if (isChorus) {
         category = "chorus";
+    } else if (isSongChorus) {
+        category = "song/chorus";
     } else {
         category = "song";
     }
