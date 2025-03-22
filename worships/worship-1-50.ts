@@ -134,6 +134,13 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=eXsLLMBclAM",
         chord: "D",
     },
+    {
+        id: "dia-sungguh-baik-he-is-so-good",
+        title: "DIA SUNGGUH BAIK ( HE IS SO GOOD )",
+        creator: "Rendy Ekin family",
+        url: "https://www.youtube.com/watch?v=OLX75OqazBM",
+        chord: "A",
+    },
 ];
 
 export default worship_1_50;
