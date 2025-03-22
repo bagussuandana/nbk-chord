@@ -68,7 +68,6 @@ janganlah 'kau gentar,
 baiklah 'kau seg'ra
 t'rima kes'lamatan.
 `;
-    const songFile = `/assets/mp3/${songID}.mp3`;
     return (
         <SongWrapper>
             <SongHeader song={song} />

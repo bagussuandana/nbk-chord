@@ -34,6 +34,14 @@ const song_301_350: Song[] = [
         tempo: "116",
     },
     {
+        id: "323",
+        title: "NBK-323",
+        description: "ku suka menc'ritakan",
+        chord: "G",
+        rhythm: "4/4",
+        tempo: "88",
+    },
+    {
         id: "328",
         title: "NBK-328",
         description: "aku tak takut",
