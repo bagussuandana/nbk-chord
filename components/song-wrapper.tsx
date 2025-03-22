@@ -71,7 +71,7 @@ const SongWrapper = ({
                             : "absolute text-[200px] text-gray-900/5 dark:text-gray-50/5 bottom-0 right-0 z-0"
                     )}
                 >
-                    {id}X
+                    {id}
                 </div>
                 <section className="prose dark:prose-invert max-w-full">
                     {children}
