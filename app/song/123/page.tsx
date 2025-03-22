@@ -1,14 +1,10 @@
 import appConfig from "@/app.config";
 import SongHeader from "@/components/song-header";
 import SongWrapper from "@/components/song-wrapper";
+import SoundCloudEmbed from "@/components/soundcloud-embed";
 import TransposerWrapper from "@/components/transposer-wrapper";
 import Transposer from "@/lib/transposer";
 import { Metadata } from "next";
-import dynamic from "next/dynamic";
-
-const AudioPlayer = dynamic(() => import("@/components/audio-player"), {
-    ssr: false,
-});
 
 const songID = "123";
 export const metadata: Metadata = {
@@ -76,7 +72,7 @@ t'rima kes'lamatan.
     return (
         <SongWrapper>
             <SongHeader song={song} />
-            <AudioPlayer src={songFile} />
+            <SoundCloudEmbed trackUrl="https://soundcloud.com/gusti-bagus-suandana/bnbk-123" />
             <TransposerWrapper>
                 <Transposer
                     initialKey={song.chord as string}
