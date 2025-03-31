@@ -15,7 +15,7 @@ export default function RohElkudusRohTuhanHolySpiritMoveAgain() {
     const { worships } = appConfig;
     const worship = worships.find((s: any) => s.id === worshipID);
     const worshipText = `
-Intro :
+[Intro] :
 C     Fm
 G: 3.4.5.4   323
 C Fm

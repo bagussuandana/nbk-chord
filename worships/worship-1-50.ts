@@ -148,6 +148,34 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=0cajopXt9rk",
         chord: "G",
     },
+    {
+        id: "ku-di-bri-kuasa",
+        title: "Ku Dibr'i Kuasa",
+        creator: "JPCC",
+        url: "https://www.youtube.com/watch?v=OfKWi_WJv7I",
+        chord: "G",
+    },
+    {
+        id: "kumenang",
+        title: "Kumenang",
+        creator: "Symphony Worship",
+        url: "https://www.youtube.com/watch?v=f-5eGpDg05g",
+        chord: "C",
+    },
+    {
+        id: "kusorakkan-haleluya",
+        title: "Kusorakkan Haleluya",
+        creator: "Symphony Worship",
+        url: "https://www.youtube.com/watch?v=pQ19rJ3zYm8",
+        chord: "F",
+    },
+    {
+        id: "sujud-di-altarnya",
+        title: "Sujud Di AltarNya",
+        creator: "Symphony Worship",
+        url: "https://www.youtube.com/watch?v=wNQ_ctsoUo0&t=1s",
+        chord: "F",
+    },
 ];
 
 export default worship_1_50;
