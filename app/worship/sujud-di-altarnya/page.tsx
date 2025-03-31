@@ -22,7 +22,7 @@ Bila hati terasa berat
 Tak seorang pun mengerti bebanku
    Cm   F   Bb
 Ku ta - nya Yesus
- Gm      Dm    C
+ Gm      C     Am    Dm
 Apa yang harus kubuat?
 
 [Transition]
@@ -40,9 +40,9 @@ Dia pikul s'gala bebanku.
 
 --Silent--
 [Chorus]
-         F         F/A
+         F         Cm
 Sujud Di AltarNya
-         Bb
+    F     Bb
 'Ku Bawa Hidupku
         F/A  Gm
 'Ku T'rima  Anug'rahNya
