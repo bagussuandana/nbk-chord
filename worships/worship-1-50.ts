@@ -173,7 +173,14 @@ const worship_1_50: Worship[] = [
         id: "sujud-di-altarnya",
         title: "Sujud Di AltarNya",
         creator: "Symphony Worship",
-        url: "https://www.youtube.com/watch?v=wNQ_ctsoUo0&t=1s",
+        url: "https://www.youtube.com/watch?v=wNQ_ctsoUo0",
+        chord: "F",
+    },
+    {
+        id: "yesusku-kau-terindah",
+        title: "Yesusku Kau Terindah",
+        creator: "Symphony Worship",
+        url: "https://www.youtube.com/watch?v=vgcY5-toTNc",
         chord: "F",
     },
 ];
