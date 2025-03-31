@@ -60,8 +60,12 @@ Panji kemenanganNya, kumenang.
 [Pre-Chorus] [...]
 [Chorus] [...]
 [Instrumen]
-| Dm  Em  F  C |
+Dm  Em  F  C
+135 ....
+5431 4 4 3 5-6
+567123451
 
+4352
 [Intro] 3X [...]
 [Pre-Chorus] [...]
 [Chorus] [...]
