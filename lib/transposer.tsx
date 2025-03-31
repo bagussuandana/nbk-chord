@@ -82,6 +82,7 @@ const getDelta = (oldIndex: number, newIndex: number): number => {
 const wrapChords = (input: string, chordReplaceRegex: RegExp): string => {
     return input.replace(chordReplaceRegex, (str, p1, p2, p3) => {
         if (p1) return `<span class='c'>${p1}</span>`;
+        else if (p2) return `<span class='d'>/</span>`;
         else if (p3) return `<span class='on'>/</span>`;
         return str;
     });
@@ -92,6 +93,27 @@ const isChordLine = (input: string, chordRegex: RegExp): boolean => {
     return tokens.every(
         (token) => !token.trim().length || chordRegex.test(token)
     );
+};
+
+const formatSongText = (
+    songText: string,
+    chordRegex: RegExp,
+    chordReplaceRegex: RegExp
+) => {
+    return songText
+        .split(/\r\n|\n/g)
+        .map((line) => {
+            if (/\[(.*?)\]/.test(line)) {
+                return `<div class='section-header'>${line.replace(
+                    /\[(.*?)\]/g,
+                    "<div class='section'>$1</div>"
+                )}</div>`;
+            }
+            return isChordLine(line, chordRegex)
+                ? `<span>${wrapChords(line, chordReplaceRegex)}</span>`
+                : `<span>${line}</span>`;
+        })
+        .join("\n");
 };
 
 interface TransposerProps {
@@ -113,13 +135,9 @@ const Transposer: React.FC<TransposerProps> = ({
     const [transposedText, setTransposedText] = useState<string>("");
 
     useEffect(() => {
-        const lines = songText.split(/\r\n|\n/g);
-        const output = lines.map((line) =>
-            isChordLine(line, chordRegex)
-                ? `<span>${wrapChords(line, chordReplaceRegex)}</span>`
-                : `<span>${line}</span>`
+        setTransposedText(
+            formatSongText(songText, chordRegex, chordReplaceRegex)
         );
-        setTransposedText(output.join("\n"));
     }, [songText]);
 
     const transposeSong = (newKeyName: string) => {
