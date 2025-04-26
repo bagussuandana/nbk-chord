@@ -183,6 +183,34 @@ const worship_1_50: Worship[] = [
         url: "https://www.youtube.com/watch?v=vgcY5-toTNc",
         chord: "F",
     },
+    {
+        id: "nyanyi-dan-bersoraklah",
+        title: "Nyanyi dan Bersoraklah",
+        creator: "GMS Worship",
+        url: "https://www.youtube.com/watch?v=RBfKjMr2b00",
+        chord: "A",
+    },
+    {
+        id: "tak-tertandingi",
+        title: "Tak Tertandingi",
+        creator: "GMS Worship",
+        url: "https://www.youtube.com/watch?v=wvlldOnFahU",
+        chord: "E",
+    },
+    {
+        id: "besar-di-dalamku",
+        title: "Besar Di Dalamku",
+        creator: "JPCC Worship",
+        url: "https://www.youtube.com/watch?v=iXG6PwjObKo",
+        chord: "A",
+    },
+    {
+        id: "tiada-seperti-mu",
+        title: "Tiada Seperti-Mu",
+        creator: "Sidney Mohede",
+        url: "https://www.youtube.com/watch?v=HKhKMtK1nUk&list",
+        chord: "D",
+    },
 ];
 
 export default worship_1_50;
