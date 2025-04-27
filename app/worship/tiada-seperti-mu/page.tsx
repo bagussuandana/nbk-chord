@@ -1,8 +1,7 @@
 import appConfig from "@/app.config";
 import SongHeader from "@/components/song-header";
+import SongTransposerClient from "@/components/song-transposer-client";
 import SongWrapper from "@/components/song-wrapper";
-import TransposerWrapper from "@/components/transposer-wrapper";
-import Transposer from "@/lib/transposer";
 import { Metadata } from "next";
 
 const worshipID = "tiada-seperti-mu";
@@ -98,15 +97,79 @@ D  A/C#  Bm  A  G  D/F#  Em  A
 D  A/C#  Bm  A  G  D/F#  Em  A
 
 `;
+    const worshipNumber = `
+Intro:
+| 1... | 7... | 6... | 4... |
+
+Verse1:
+| 1... | 7... | 6... | 4... |
+| 1... | 7... | 6... | 4... |
+| 5... | 6... | 1/3... | 4... |
+| 4… |
+
+Intro:
+| 1... | 7... | 6... | 4... |
+
+Verse2:
+| 1... | 7... | 6... | 4... |
+| 1... | 7... | 6... | 4... |
+| 5... | 6... | 1/3... | 4... |
+| 4… |
+
+Chorus: 
+| 1... | 7... | 6... | 4... | 8 beat rock
+| 1... | 7... | 6... | 4... |
+
+Intro: 
+| 1... | 7... | 6... | 4... | 1st beat
+
+Verse3:
+| 1... | 7... | 6... | 4... |
+| 1... | 7... | 6... | 4... |
+| 5... | 6... | 1/3... | 4... |
+| 4… | syncope
+
+Chorus:
+| 1... | 7... | 6... | 4... |
+| 1... | 7... | 6... | 4... |
+
+Chorus:
+| 1... | 7... | 6... | 4... |
+| 1... | 7... | 6... | 4... |
+
+Bridge:
+| 1/3... | 4.(345)(567) | 1/3... | 4.(713) |
+| 6... | 4... | 5... | 5... |
+
+Interlude: 
+| 1... | 7... | 6... | 5... | 8beat rock
+| 4... | 3... | 2... | 5... |
+| 1... | 7... | 6... | 5..3 |
+| 4... | 3... | 2... | 5... |
+
+Chorus:
+| 1... | 7... | 6... | 4... |
+| 1... | 7... | 6... | 4... |
+
+Chorus:
+| 1... | 5m... | 4... | 4m/6b... |
+| 6... | 5m... | 4... | (6b5)(.4)(.3b)((2b-1-7b-6b)) |
+
+Chorus:
+| 1... | 5m... | 4... | 4m/6b... |
+| 6... | 5m... | 4... | 4m... | syncope
+
+Chorus: breakdown
+| 1... | 5m... | 4... | 4m/6b... |
+| 1... | 5m/1... | 4... | 4m... |`;
     return (
         <SongWrapper isWorship>
             <SongHeader song={worship} isWorship />
-            <TransposerWrapper>
-                <Transposer
-                    initialKey={worship.chord as string}
-                    songText={worshipText}
-                />
-            </TransposerWrapper>
+            <SongTransposerClient
+                initialKey={worship.chord as string}
+                songText={worshipText}
+                songNumber={worshipNumber}
+            />
         </SongWrapper>
     );
 }

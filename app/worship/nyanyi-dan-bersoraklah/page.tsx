@@ -1,8 +1,7 @@
 import appConfig from "@/app.config";
 import SongHeader from "@/components/song-header";
+import SongTransposerClient from "@/components/song-transposer-client";
 import SongWrapper from "@/components/song-wrapper";
-import TransposerWrapper from "@/components/transposer-wrapper";
-import Transposer from "@/lib/transposer";
 import { Metadata } from "next";
 
 const worshipID = "nyanyi-dan-bersoraklah";
@@ -117,15 +116,58 @@ To God   Be The Glory
         A/E    E      A
 For The Things He Has Done
 `;
+    const worshipNumber = `
+Intro:
+| 1... | 5... | 6.5. | 4... | a.guitar
+| 1... | 5... | 6.5. | 4... |
+
+Verse1:
+| 1... | 5... | 6.5. | 4... |
+| 3... | 4... | 2... | 5... |
+| 1... | 5... | 6.5. | 4... |
+| 3... | 4... | 2... | 5... |
+
+Intro:
+| 1... | 5... | 6.5. | 4... |
+| 1... | 5... | 6.5. | 4... |
+
+Verse2:
+| 1... | 5... | 6.5. | 4... | snare drum
+| 3... | 4... | 2... | 5... |
+| 1... | 5... | 6.5. | 4... | bass
+| 3... | 4... | 2... | 5... | build up
+
+Chorus:
+| 1.3. | 4... | 1.3. | 4.5. |
+| 6.5. | 4... | 2... | 5... |
+| 1.3. | 4... | 1.3. | 4.5. |
+| 6.5. | 4.5. |
+
+Bridge:
+| 4... | 4..5 | 6... | 6..3 |
+| 4... | 4..5 | 6... | 6..3 |
+| 4... | 4..5 | 6... | 6..3 | full
+| 4... | 4..5 | 6... | 6..3 |
+| 4... | 4..5 | 6... | 6..3 | guitar
+| 4... | 4..5 | 1... | 5/7... |
+
+Chorus:
+| 1.3. | 4... | 1.3. | 4.5. |
+| 6.5. | 4... | 2... | 5... |
+| 1.3. | 4... | 1.3. | 4.5. |
+| 6.5. | 4.5. |
+
+Coda:
+| 6.5. | 4.5. | 6.5. | 4.5. |
+| 1... |`;
     return (
         <SongWrapper isWorship>
             <SongHeader song={worship} isWorship />
-            <TransposerWrapper>
-                <Transposer
-                    initialKey={worship.chord as string}
-                    songText={worshipText}
-                />
-            </TransposerWrapper>
+            <SongTransposerClient
+                initialKey={worship.chord as string}
+                songText={worshipText}
+                songNumber={worshipNumber}
+            />
         </SongWrapper>
     );
 }
