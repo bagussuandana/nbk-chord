@@ -1,8 +1,7 @@
 import appConfig from "@/app.config";
 import SongHeader from "@/components/song-header";
+import SongTransposerClient from "@/components/song-transposer-client";
 import SongWrapper from "@/components/song-wrapper";
-import TransposerWrapper from "@/components/transposer-wrapper";
-import Transposer from "@/lib/transposer";
 import { Metadata } from "next";
 
 const worshipID = "tak-tertandingi";
@@ -70,15 +69,80 @@ E                      F#
     F#m   E/G#  A
   Sorak Kemenangan
 `;
+    const worshipNumber = `Intro:
+| 6..5 | ...5 | 4#... | 4..3 | 
+| 6..5 | ...5 | 4#... | 4..3 | 
+| 6... | 5... | 4#... | 4..3 | 
+| 6... | 5... | 4#... | 4... | 4... |
+
+Verse1:
+| 6... | 6... | 4... | 4... |
+| 2sus... | 2M... | 4... | 4... |
+| 6... | 6... | 4... | 4... |
+| 2sus... | 2M... |
+
+Pre-chorus:
+| 4... | 4... | 6... | 6... |
+| 2... | 3... | 4... | 4... |
+
+Chorus:
+| 1... | 5... | 6... | 4... |
+| 1... | 5... | 6... | 4... |
+| 1... | 5... | 6... | 4... |
+| 1... | 5... | 6.5. | 4#... | 4#... |
+
+Intro:
+| 6..5 | ...5 | 4#... | 4..3 | 
+
+Verse2:
+| 6... | 6... | 4... | 4... |
+| 2sus... | 2M... | 4... | 4.5. | syncop
+| 6... | 6... | 1... | 1... |
+| 2sus... | 2M... |
+
+Pre-chorus:
+| 4... | 4... | 6... | 6... | drum triplet
+| 2... | 3... | 4... | 4... |
+
+Chorus:
+| 1... | 5... | 6... | 4... |
+| 1... | 5... | 6... | 4... |
+| 1... | 5... | 6... | 4... |
+| 1... | 5... | 6.5. | 2M... | 2M... |
+
+Interlude:
+| 6... | 6... | 1... | 1... |
+| 4#... | 4#... | 4... | 4... |
+| 6... | 6... | 5... | 5... |
+| 4#... | 4#... | 4... | 4... | tutti 32175
+| 6... | 6.1. | 4... | 4.2. |
+| 6... | 1... | 4... | 2... |
+| 6... | 1... | 4... | 2... |
+
+Chorus:
+| 1... | 5... | 6... | 4... | breakdown
+| 1... | 5... | 6... | 4... |
+| 1... | 5... | 6... | 4... |full
+| 1... | 5... | 6.5. | 2M... |
+
+Chorus:
+| 1... | 5... | 6... | 4... |
+| 1... | 5... | 6... | 4... | syncop
+| 1... | 5... | 6... | 4... |
+| 1... | 5... | 6.5. | 2M... |
+
+Intro:
+| 6..5 | ...5 | 4#... | 4... |
+
+*ending tutti: 456 356`;
     return (
         <SongWrapper isWorship>
             <SongHeader song={worship} isWorship />
-            <TransposerWrapper>
-                <Transposer
-                    initialKey={worship.chord as string}
-                    songText={worshipText}
-                />
-            </TransposerWrapper>
+            <SongTransposerClient
+                initialKey={worship.chord as string}
+                songText={worshipText}
+                songNumber={worshipNumber}
+            />
         </SongWrapper>
     );
 }
